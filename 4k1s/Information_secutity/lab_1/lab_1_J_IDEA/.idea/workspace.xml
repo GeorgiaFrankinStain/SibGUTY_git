@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4103b642-4785-410c-ab9f-bb1d997138ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/bsgs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/coprime_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/dh_protocol.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/fem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/gcd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/inversion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/my_rand.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/tests/runner_test_lib1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/tests/test_lib1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib1/tests/test_lib1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/ElgamalProtocol.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/RSA.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/ShamirProtocol.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/VernamCipher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/tests/runner_test_lib2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/tests/test_lib2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/lib2/tests/test_lib2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/task1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/task2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/task3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../THEFT/Senchenko/1,2 break version/test_gmp.cpp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lab_1_J_IDEA" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DiffieHellman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="203" column="37" lean-forward="true" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FastExponentiationModulo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42483">
+              <caret line="2558" selection-start-line="2558" selection-end-line="2558" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/DiffieHellmanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="333" selection-start-line="333" selection-end-line="333" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SqrtBigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/SqrtBigIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/FastExponentiationModuloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>U_Arr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/ExtendedGCD.java" />
+        <option value="$PROJECT_DIR$/Test/ExtendedGCDTest.java" />
+        <option value="$PROJECT_DIR$/src/ExtBigInteger.java" />
+        <option value="$PROJECT_DIR$/src/SqrtBigInteger.java" />
+        <option value="$PROJECT_DIR$/Test/SqrtBigIntegerTest.java" />
+        <option value="$PROJECT_DIR$/Test/DiffieHellmanTest.java" />
+        <option value="$PROJECT_DIR$/src/FastExponentiationModulo.java" />
+        <option value="$PROJECT_DIR$/Test/FastExponentiationModuloTest.java" />
+        <option value="$PROJECT_DIR$/src/DiffieHellman.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="746" />
+    <option name="width" value="1170" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab_1_J_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_1_J_IDEA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_1_J_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_1_J_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DiffieHellmanTest">
+    <configuration name="All in lab_1_J_IDEA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_1_J_IDEA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiffieHellmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_1_J_IDEA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiffieHellmanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtendedGCDTest.get1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_1_J_IDEA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExtendedGCDTest" />
+      <option name="METHOD_NAME" value="get1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastExponentiationModuloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_1_J_IDEA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FastExponentiationModuloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtBigIntegerTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_1_J_IDEA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SqrtBigIntegerTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in lab_1_J_IDEA" />
+      <item itemvalue="JUnit.DiffieHellmanTest" />
+      <item itemvalue="JUnit.ExtendedGCDTest.get1" />
+      <item itemvalue="JUnit.FastExponentiationModuloTest" />
+      <item itemvalue="JUnit.SqrtBigIntegerTest.get" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiffieHellmanTest" />
+        <item itemvalue="JUnit.SqrtBigIntegerTest.get" />
+        <item itemvalue="JUnit.All in lab_1_J_IDEA" />
+        <item itemvalue="JUnit.ExtendedGCDTest.get1" />
+        <item itemvalue="JUnit.FastExponentiationModuloTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4103b642-4785-410c-ab9f-bb1d997138ec" name="Default Changelist" comment="" />
+      <created>1572418091435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572418091435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 50m 25s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 52m 43s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 53m 19s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 53m 36s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 54m 02s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 56m 09s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 56m 40s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 57m 28s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 59m 24s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiffieHellmanTest - 2019.11.05 at 21h 00m 59s.xml">
+      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="597" y="0" width="936" height="848" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49068323" weight="0.25456622" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50931674" side_tool="true" weight="0.25570777" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.325419" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ExtendedGCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExtBigInteger.java" />
+    <entry file="file://$PROJECT_DIR$/Test/ExtendedGCDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FastExponentiationModulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42483">
+          <caret line="2558" selection-start-line="2558" selection-end-line="2558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/FastExponentiationModuloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/SqrtBigIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SqrtBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/DiffieHellmanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiffieHellman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="203" column="37" lean-forward="true" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
