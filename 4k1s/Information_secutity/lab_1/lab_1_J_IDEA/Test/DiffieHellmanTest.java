@@ -1,58 +1,43 @@
 import org.junit.Test;
 
 import java.math.BigInteger;
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
 public class DiffieHellmanTest {
 
     @Test
-    public void FOR_TEST___is_prime_number_BOOL() {
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(17));
-            boolean expectedBOOL = true;
+    public void to_connect_encrypted_connect() {
 
-            assertEquals(expectedBOOL, actualBOOL);
-        }
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(47));
-            boolean expectedBOOL = true;
-
-            assertEquals(expectedBOOL, actualBOOL);
-        }
+        for (int i = 0; i < 7; i++) {
+            {
+                DiffieHellman aliceDH = new DiffieHellman();
+                DiffieHellman bobDH = new DiffieHellman();
 
 
+                aliceDH.initialize_data_encrypted_connect();
+                BigInteger[] data_for_connect_for_bob_ArrBI =
+                        aliceDH.data_for_opponent_connect();
+                System.out.println(Arrays.toString(data_for_connect_for_bob_ArrBI)); //DEBUG_DELETE
+                bobDH.to_connect_encrypted_connect(data_for_connect_for_bob_ArrBI);
 
 
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(49));
-            boolean expectedBOOL = false;
+                BigInteger[] data_for_connect_for_alice_ArrBI =
+                        bobDH.data_for_opponent_connect();
+                System.out.println(Arrays.toString(data_for_connect_for_alice_ArrBI)); //DEBUG_DELETE
+                aliceDH.to_connect_encrypted_connect(data_for_connect_for_alice_ArrBI);
 
-            assertEquals(expectedBOOL, actualBOOL);
-        }
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(16));
-            boolean expectedBOOL = false;
 
-            assertEquals(expectedBOOL, actualBOOL);
-        }
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(1));
-            boolean expectedBOOL = false;
 
-            assertEquals(expectedBOOL, actualBOOL);
-        }
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(0));
-            boolean expectedBOOL = false;
+                System.out.println(bobDH.getShared_secret_keyBI());
+                System.out.println(aliceDH.getShared_secret_keyBI());
 
-            assertEquals(expectedBOOL, actualBOOL);
-        }
-        {
-            boolean actualBOOL = DiffieHellman.FOR_TEST___is_prime_number_BOOL(BigInteger.valueOf(-1));
-            boolean expectedBOOL = false;
-
-            assertEquals(expectedBOOL, actualBOOL);
+                assertEquals(
+                        bobDH.getShared_secret_keyBI(),
+                        aliceDH.getShared_secret_keyBI()
+                );
+            }
         }
     }
 }
