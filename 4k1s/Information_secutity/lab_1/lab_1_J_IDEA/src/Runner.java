@@ -4,6 +4,7 @@ import java.util.Arrays;
 public class Runner {
     public static void main(String[] args) {
 //        task3();
+        task4();
     }
 
 
@@ -32,5 +33,9 @@ public class Runner {
 
         System.out.println(bobDH.getShared_secret_keyBI());
         System.out.println(aliceDH.getShared_secret_keyBI());
+    }
+
+    public static void task4() {
+
     }
 }

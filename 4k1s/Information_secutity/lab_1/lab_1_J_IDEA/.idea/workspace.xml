@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4103b642-4785-410c-ab9f-bb1d997138ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/DiffieHellmanTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_1_J_IDEA/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab_1_J_IDEA/DiffieHellmanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab_1_J_IDEA/DiffieHellmanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab_1_J_IDEA/FastExponentiationModuloTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab_1_J_IDEA/FastExponentiationModuloTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiffieHellman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BabyStepGiantStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BabyStepGiantStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiffieHellman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiffieHellman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SqrtBigInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqrtBigInteger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,69 +23,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DiffieHellman.java">
+        <entry file="file://$PROJECT_DIR$/src/BabyStepGiantStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="91" column="53" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="53" />
+            <state relative-caret-position="164">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/ExtendedGCDTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExtendedGCD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#491#515#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BabyStepGiantStep.java">
+        <entry file="file://$PROJECT_DIR$/Test/BabyStepGiantStepTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="169">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#515#527#0" expanded="true" />
-                <element signature="e#623#635#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/SqrtBigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="106" column="36" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Runner.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="130">
+              <caret line="1434" selection-start-line="1434" selection-end-line="1434" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#54505#54506#0" expanded="true" />
+                <element signature="e#54548#54549#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/MutableBigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="1178" selection-start-line="1178" selection-end-line="1178" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="203" selection-start-line="203" selection-end-line="203" />
+              <folding>
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2155#2156#0" expanded="true" />
+                <element signature="e#6484#6648#0" expanded="true" />
+                <element signature="e#6647#6648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -98,8 +134,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -120,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/ExtendedGCD.java" />
         <option value="$PROJECT_DIR$/Test/ExtendedGCDTest.java" />
         <option value="$PROJECT_DIR$/src/ExtBigInteger.java" />
-        <option value="$PROJECT_DIR$/src/SqrtBigInteger.java" />
         <option value="$PROJECT_DIR$/Test/SqrtBigIntegerTest.java" />
         <option value="$PROJECT_DIR$/src/FastExponentiationModulo.java" />
         <option value="$PROJECT_DIR$/Test/FastExponentiationModuloTest.java" />
@@ -129,13 +164,15 @@
         <option value="$PROJECT_DIR$/Test/DiffieHellmanTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Runner.java" />
+        <option value="$PROJECT_DIR$/src/SqrtBigInteger.java" />
         <option value="$PROJECT_DIR$/src/BabyStepGiantStep.java" />
+        <option value="$PROJECT_DIR$/Test/BabyStepGiantStepTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="275" />
-    <option name="y" value="-19" />
+    <option name="x" value="-15" />
+    <option name="y" value="-14" />
     <option name="width" value="1025" />
     <option name="height" value="730" />
   </component>
@@ -201,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="JUnit.BabyStepGiantStepTest.get">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="lab_1_J_IDEA" />
@@ -209,10 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in lab_1_J_IDEA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BabyStepGiantStepTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_1_J_IDEA" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="BabyStepGiantStepTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,18 +287,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Runner" />
-      <item itemvalue="JUnit.All in lab_1_J_IDEA" />
       <item itemvalue="JUnit.DiffieHellmanTest" />
       <item itemvalue="JUnit.SqrtBigIntegerTest.get" />
       <item itemvalue="JUnit.DiffieHellmanTest.to_connect_encrypted_connect" />
+      <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.DiffieHellmanTest.to_connect_encrypted_connect" />
         <item itemvalue="JUnit.DiffieHellmanTest" />
         <item itemvalue="JUnit.SqrtBigIntegerTest.get" />
-        <item itemvalue="JUnit.All in lab_1_J_IDEA" />
       </list>
     </recent_temporary>
   </component>
@@ -277,35 +316,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 53m 36s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 03m 16s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 54m 02s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 05m 03s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 56m 09s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 05m 24s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 56m 40s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 07m 01s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 57m 28s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 09m 23s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 20h 59m 24s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 09m 24s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.05 at 21h 00m 59s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 10m 56s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest - 2019.11.08 at 20h 04m 02s.xml">
-      <configuration name="DiffieHellmanTest" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 11m 21s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest_to_connect_encrypted_connect - 2019.11.08 at 20h 05m 44s.xml">
-      <configuration name="DiffieHellmanTest.to_connect_encrypted_connect" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 12m 24s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiffieHellmanTest_to_connect_encrypted_connect - 2019.11.08 at 20h 06m 55s.xml">
-      <configuration name="DiffieHellmanTest.to_connect_encrypted_connect" configurationId="JUnit" />
+    <history-entry file="BabyStepGiantStepTest_get - 2019.11.11 at 23h 13m 27s.xml">
+      <configuration name="BabyStepGiantStepTest.get" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -321,19 +360,19 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48743016" visible="true" weight="0.25704697" />
-      <window_info id="Structure" order="1" sideWeight="0.5111732" side_tool="true" weight="0.2536913" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.106575966" weight="0.25637585" />
+      <window_info id="Structure" order="1" sideWeight="0.89342403" side_tool="true" weight="0.25637585" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.50931674" side_tool="true" weight="0.25487944" />
-      <window_info id="TODO" order="8" sideWeight="0.51256984" side_tool="true" visible="true" weight="0.25704697" />
-      <window_info id="Run" order="9" sideWeight="0.5111732" side_tool="true" weight="0.2536913" />
+      <window_info id="TODO" order="8" sideWeight="0.89342403" side_tool="true" weight="0.25637585" />
+      <window_info active="true" id="Run" order="9" sideWeight="0.89342403" side_tool="true" visible="true" weight="0.25637585" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3840782" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.3840782" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.511579" weight="0.25279328" />
@@ -349,9 +388,66 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.106575966" visible="true" weight="0.25637585" />
+      <window_info id="Structure" order="1" sideWeight="0.89342403" side_tool="true" weight="0.25637585" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50931674" side_tool="true" weight="0.25487944" />
+      <window_info id="TODO" order="8" sideWeight="0.89342403" side_tool="true" weight="0.25637585" />
+      <window_info active="true" id="Run" order="9" sideWeight="0.89342403" side_tool="true" visible="true" weight="0.25637585" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.3840782" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.511579" weight="0.25279328" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="expected_x_BI.compareTo(BigInteger.valueOf(2)) == 0 " language="JAVA" />
+          <url>file://$PROJECT_DIR$/Test/BabyStepGiantStepTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>expected_x_BI.compareTo(BigInteger.valueOf(2)) == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>yBI.compareTo(actual_fast_exp_mod_BI) != 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>div.compareTo(BigInteger.ZERO) == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>numberBI.compareTo(BigInteger.ZERO) == 0</expression-string>
         <language-id>JAVA</language-id>
@@ -376,38 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SqrtBigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="1492" column="15" selection-start-line="1492" selection-start-column="15" selection-end-line="1492" selection-end-column="15" />
-          <folding>
-            <element signature="e#54505#54506#0" expanded="true" />
-            <element signature="e#54548#54549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FastExponentiationModulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -423,20 +487,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Runner.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="161">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiffieHellman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="91" column="53" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="106" column="36" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#task3#0;class#Runner#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,24 +532,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiffieHellman.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="91" column="53" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="53" />
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/MutableBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1178" selection-start-line="1178" selection-end-line="1178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SqrtBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1434" selection-start-line="1434" selection-end-line="1434" />
+          <folding>
+            <element signature="e#54505#54506#0" expanded="true" />
+            <element signature="e#54548#54549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BabyStepGiantStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="164">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#527#0" expanded="true" />
-            <element signature="e#623#635#0" expanded="true" />
+            <element signature="e#491#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/BabyStepGiantStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

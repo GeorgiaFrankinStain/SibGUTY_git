@@ -12,7 +12,7 @@ public class DiffieHellman {
 
     public DiffieHellman() {
         this.personal_secret_keyBI = generate_personal_secret_key();
-//        System.out.println(this.personal_secret_keyBI); //DEBUG_DELETE
+       // System.out.println(this.personal_secret_keyBI); //DEBUG_DELETE
     }
     private BigInteger generate_personal_secret_key() {
         BigInteger keyBI;
