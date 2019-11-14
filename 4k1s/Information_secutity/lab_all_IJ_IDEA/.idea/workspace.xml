@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_all_IJ_IDEA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab_1/lab_1_J_IDEA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_1/lab_1_J_IDEA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/lab_2/FileEncryption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,19 +97,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" />
         <option value="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" />
         <option value="$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java" />
         <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger2.java" />
         <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java" />
         <option value="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" />
         <option value="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" />
         <option value="$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java" />
         <option value="$PROJECT_DIR$/src/lab_1/Runner.java" />
         <option value="$PROJECT_DIR$/test/lab_1/FastExponentiationModuloTest.java" />
         <option value="$PROJECT_DIR$/test/lab_1/SqrtBigIntegerTest.java" />
         <option value="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" />
+        <option value="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" />
+        <option value="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" />
       </list>
     </option>
   </component>
@@ -95,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,19 +153,20 @@
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,6 +174,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -181,13 +219,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BabyStepGiantStepTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_all_IJ_IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_1" />
+      <option name="MAIN_CLASS_NAME" value="lab_1.BabyStepGiantStepTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BabyStepGiantStepTest" />
+      <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BabyStepGiantStepTest" />
+        <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -208,11 +264,15 @@
     <history-entry file="BabyStepGiantStepTest - 2019.11.12 at 22h 17m 11s.xml">
       <configuration name="BabyStepGiantStepTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BabyStepGiantStepTest - 2019.11.14 at 10h 22m 45s.xml">
+      <configuration name="BabyStepGiantStepTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -247,36 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,14 +388,44 @@
     <entry file="file://$PROJECT_DIR$/src/lab_2/FileEncryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,10 +4,16 @@ import org.junit.Test;
 
 import java.math.BigInteger;
 
+import static java.lang.Math.pow;
+import static java.lang.StrictMath.sqrt;
 import static org.junit.Assert.*;
 
 public class BabyStepGiantStepTest {
-
+    private double expected_computational_complexity (BigInteger prime_number__BI) {
+        double prime_number__Double = prime_number__BI.doubleValue();
+        double log2xDouble = Math.log(prime_number__Double) / Math.log(2); //15 digits of precision
+        return sqrt(prime_number__Double) * pow(log2xDouble, 2);
+    }
     @Test
     public void get() {
         // при данных значениях решения нет
@@ -15,21 +21,27 @@ public class BabyStepGiantStepTest {
             BigInteger aBI = BigInteger.valueOf(47);
             BigInteger yBI = BigInteger.valueOf(23);
             BigInteger pBI = BigInteger.valueOf(16);
-            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI);
+            double actual_count_iteration__Double = 0;
+            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+            assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
             assertEquals(null, xBI);
         }
         {
             BigInteger aBI = BigInteger.valueOf(13);
             BigInteger yBI = BigInteger.valueOf(15);
             BigInteger pBI = BigInteger.valueOf(16);
-            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI);
+            double actual_count_iteration__Double = 0;
+            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+            assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
             assertEquals(null, xBI);
         }
         {
             BigInteger aBI = BigInteger.valueOf(13);
             BigInteger yBI = BigInteger.valueOf(15);
             BigInteger pBI = BigInteger.valueOf(15);
-            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI);
+            double actual_count_iteration__Double = 0;
+            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+            assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
             assertEquals(null, xBI);
         }
 
@@ -43,7 +55,9 @@ public class BabyStepGiantStepTest {
             BigInteger yBI = FastExponentiationModulo.get(aBI, expected_x_BI, pBI); //9;
 
 
-            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI);
+            double actual_count_iteration__Double = 0;
+            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+            assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
             assertEquals(expected_x_BI, xBI);
         }
         for (int i = 1; i < 7; i++) {
@@ -57,7 +71,10 @@ public class BabyStepGiantStepTest {
 
 
                         // System.out.println("IMPUT: " + aBI + "^" + expected_x_BI + " mod " + pBI + " = " + yBI); //DEBUG_DELETE
-                        BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI);
+                        
+                        double actual_count_iteration__Double = 0;
+                        BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+                        assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
 //                        assertEquals(expected_x_BI, xBI);
                         BigInteger actual_fast_exp_mod_BI = FastExponentiationModulo.get(aBI, xBI, pBI);
                         // System.out.println(); //DEBUG_DELETE
