@@ -53,11 +53,11 @@ public class DiffieHellman {
 
 
         //DEBUG_BLOCK_DELETE_start
-        System.out.println("DiffieHellman{" +
-                "gBI=" + gBI +
-                ", pBI=" + pBI +
-                ", shell_personal_secret_keyBI=" + shell_personal_secret_keyBI +
-                '}');
+        // System.out.println("DiffieHellman{" +
+        //         "gBI=" + gBI +
+        //         ", pBI=" + pBI +
+        //         ", shell_personal_secret_keyBI=" + shell_personal_secret_keyBI +
+        //         '}');
         //DEBUG_BLOCK_DELETE_end
     }
     private class P_and_G {
@@ -108,6 +108,7 @@ public class DiffieHellman {
         return  res__P_and_G;
     }
     private boolean is_prime_number_BOOL(BigInteger numberBI) {
+
         boolean numberBI_less_or_equal_than_0_BOOL =
                 numberBI.compareTo(BigInteger.ONE) <= 0;
 

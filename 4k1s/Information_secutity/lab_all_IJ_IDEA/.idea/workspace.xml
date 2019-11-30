@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/MyBigInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/PrimeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/AdiShamir.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/CryptoAbonent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/ElGamal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/RSA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/Vernam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/MyBigIntegerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_2/VernamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_1/MyBigInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_1/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/AdiShamir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/CryptoAbonent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/ElGamal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/FileCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_2/Vernam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_1/MyBigIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_2/AdiShamirTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_2/FileCryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_2/VernamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/DiffieHellman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/DiffieHellman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/ExtendedGCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/ExtendedGCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/ByteEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/CryptoAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/FileEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/DiffieHellmanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/DiffieHellmanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_2/FileEncryption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_2/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="376">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,22 +67,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java">
+        <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Files.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="143">
+              <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lab_2/AdiShamirTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,19 +124,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/lab_2/ElGamal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2000#2001#0" expanded="true" />
+                <element signature="e#2027#2028#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/FileEncryption.java">
+        <entry file="file://$PROJECT_DIR$/src/lab_2/Vernam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/MutableBigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32946">
+              <caret line="1983" column="11" selection-start-line="1983" selection-start-column="11" selection-end-line="1983" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -88,8 +165,49 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>material__byte</find>
+      <find>encrypt__byte</find>
+      <find>decrypt__byte</find>
+      <find>Vernam</find>
+      <find>sending_d_and_n__ArrListBI</find>
+      <find>input_shared_data__ArrLIstBI</find>
+      <find>RSA</find>
+      <find>coprime_generate</find>
+      <find>inver</find>
+      <find>aCryptAbon</find>
+      <find>bCryptAbon</find>
+      <find>outFileInputStream</find>
+      <find>Train</find>
+      <find>inputFile</find>
+      <find>array</find>
+      <find>int</find>
+      <find>ObjectOutputStream</find>
+      <find>System.ou</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>materialBI</replace>
+      <replace>encryptBI</replace>
+      <replace>decryptBI</replace>
+      <replace>RSA</replace>
+      <replace>sending_shared__ArrListBI</replace>
+      <replace>El</replace>
+      <replace>resArrListBI</replace>
+      <replace>AdiShamir</replace>
+      <replace>senderCryptAbon</replace>
+      <replace>recipientCrypAbon</replace>
+      <replace>outOutputStreamWriter</replace>
+      <replace>BigInteger</replace>
+      <replace>outputFile</replace>
+      <replace>materialArrListBI</replace>
+      <replace>long</replace>
+      <replace>ObjectInputStream</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -101,22 +219,37 @@
         <option value="$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java" />
         <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger2.java" />
         <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" />
         <option value="$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java" />
         <option value="$PROJECT_DIR$/src/lab_1/Runner.java" />
         <option value="$PROJECT_DIR$/test/lab_1/FastExponentiationModuloTest.java" />
         <option value="$PROJECT_DIR$/test/lab_1/SqrtBigIntegerTest.java" />
-        <option value="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" />
         <option value="$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java" />
         <option value="$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/lab_2/ShamirProtocol.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/ProtocolShamir.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/Vername.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/FileCripto.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/ProxyComCryptoAbonent.java" />
+        <option value="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" />
+        <option value="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" />
+        <option value="$PROJECT_DIR$/test/lab_1/MyBigIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/CryptoAbonent.java" />
+        <option value="$PROJECT_DIR$/src/lab_1/MyBigInteger.java" />
+        <option value="$PROJECT_DIR$/test/lab_2/RSATest.java" />
+        <option value="$PROJECT_DIR$/test/lab_2/VernamTest.java" />
+        <option value="$PROJECT_DIR$/test/lab_2/ElGamalTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/ElGamal.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/RSA.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/Vernam.java" />
+        <option value="$PROJECT_DIR$/src/lab_1/PrimeNumber.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/AdiShamir.java" />
+        <option value="$PROJECT_DIR$/test/lab_2/AdiShamirTest.java" />
+        <option value="$PROJECT_DIR$/test/lab_2/FileCryptTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/FileCrypt.java" />
+        <option value="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" />
       </list>
     </option>
   </component>
@@ -153,6 +286,12 @@
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,6 +299,12 @@
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="lab_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,9 +320,21 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab_3" />
+      <recent name="lab_2" />
+      <recent name="lab_1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lab_2" />
       <recent name="lab_1" />
     </key>
   </component>
@@ -193,57 +350,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BabyStepGiantStepTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.DigitalPunkRockTest.md5_hash">
+    <configuration name="AdiShamirTest.SHARED_TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_2" />
+      <option name="MAIN_CLASS_NAME" value="lab_2.AdiShamirTest" />
+      <option name="METHOD_NAME" value="SHARED_TEST" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BabyStepGiantStepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DigitalPunkRockTest.md5_hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_1.*" />
+          <option name="PATTERN" value="lab_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_1" />
-      <option name="MAIN_CLASS_NAME" value="lab_1.BabyStepGiantStepTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="lab_3" />
+      <option name="MAIN_CLASS_NAME" value="lab_3.DigitalPunkRockTest" />
+      <option name="METHOD_NAME" value="md5_hash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BabyStepGiantStepTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElGamalTest.SHARED_TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_1.*" />
+          <option name="PATTERN" value="lab_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_1" />
-      <option name="MAIN_CLASS_NAME" value="lab_1.BabyStepGiantStepTest" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="PACKAGE_NAME" value="lab_2" />
+      <option name="MAIN_CLASS_NAME" value="lab_2.ElGamalTest" />
+      <option name="METHOD_NAME" value="SHARED_TEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCryptTest.SHARED_TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_all_IJ_IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_2" />
+      <option name="MAIN_CLASS_NAME" value="lab_2.FileCryptTest" />
+      <option name="METHOD_NAME" value="SHARED_TEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSATest.SHARED" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_all_IJ_IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_2" />
+      <option name="MAIN_CLASS_NAME" value="lab_2.RSATest" />
+      <option name="METHOD_NAME" value="SHARED" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BabyStepGiantStepTest" />
-      <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
+      <item itemvalue="JUnit.RSATest.SHARED" />
+      <item itemvalue="JUnit.ElGamalTest.SHARED_TEST" />
+      <item itemvalue="JUnit.AdiShamirTest.SHARED_TEST" />
+      <item itemvalue="JUnit.FileCryptTest.SHARED_TEST" />
+      <item itemvalue="JUnit.DigitalPunkRockTest.md5_hash" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BabyStepGiantStepTest" />
-        <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
+        <item itemvalue="JUnit.DigitalPunkRockTest.md5_hash" />
+        <item itemvalue="JUnit.FileCryptTest.SHARED_TEST" />
+        <item itemvalue="JUnit.AdiShamirTest.SHARED_TEST" />
+        <item itemvalue="JUnit.ElGamalTest.SHARED_TEST" />
+        <item itemvalue="JUnit.RSATest.SHARED" />
       </list>
     </recent_temporary>
   </component>
@@ -261,18 +462,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BabyStepGiantStepTest - 2019.11.12 at 22h 17m 11s.xml">
-      <configuration name="BabyStepGiantStepTest" configurationId="JUnit" />
+    <history-entry file="FileCryptTest_SHARED_TEST - 2019.11.29 at 21h 09m 09s.xml">
+      <configuration name="FileCryptTest.SHARED_TEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BabyStepGiantStepTest - 2019.11.14 at 10h 22m 45s.xml">
-      <configuration name="BabyStepGiantStepTest" configurationId="JUnit" />
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 20h 57m 37s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 20h 59m 04s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 04m 32s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 04m 48s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 06m 57s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 13m 17s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 14m 54s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 15m 05s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 15m 16s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -282,18 +516,18 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -301,60 +535,83 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_2/VernamTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_2/ElGamalTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_2/ElGamalTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_2/AdiShamirTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_2/FileCryptTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab_2/FileCrypt.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>BigInteger.valueOf(59)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>BigInteger.valueOf(53)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>BigInteger.valueOf(89)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>BigInteger.valueOf(3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>53</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_2/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/ExtendedGCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -378,40 +635,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_2/FileEncryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_1/BabyStepGiantStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="833">
           <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -421,8 +647,270 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="313">
+          <caret line="76" column="102" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/FileEncryption.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/Vername.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/ProtocolShamir.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/FileCripto.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_2/ProxyComCryptoAbonent.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_1/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_1/MyBigIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/ExtendedGCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAbonent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/MyBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/VernamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/ElGamalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="3147" column="31" lean-forward="true" selection-start-line="3147" selection-start-column="31" selection-end-line="3147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/RSA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/AdiShamir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/FileCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/FileCryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/AdiShamirTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/ElGamal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/Vernam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/MutableBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32946">
+          <caret line="1983" column="11" selection-start-line="1983" selection-start-column="11" selection-end-line="1983" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

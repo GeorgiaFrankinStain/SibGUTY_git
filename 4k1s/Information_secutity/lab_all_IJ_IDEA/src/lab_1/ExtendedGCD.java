@@ -42,7 +42,7 @@ public class ExtendedGCD {
 
 
 
-    static BigInteger[] get(BigInteger aBI, BigInteger bBI) {
+    public static BigInteger[] get(BigInteger aBI, BigInteger bBI) {
         BigInteger[] U_ArrBI = {aBI, BigInteger.valueOf(1), BigInteger.valueOf(0)};
         BigInteger[] V_ArrBI = {bBI, BigInteger.valueOf(0), BigInteger.valueOf(1)};
 
