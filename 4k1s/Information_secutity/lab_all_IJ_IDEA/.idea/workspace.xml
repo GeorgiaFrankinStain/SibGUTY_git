@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/MyBigInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/PrimeNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/AdiShamir.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/CryptoAbonent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/ElGamal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/RSA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/Vernam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/MyBigIntegerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_2/VernamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_1/MyBigInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_1/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/AdiShamir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/CryptoAbonent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/ElGamal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/FileCrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/RSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_2/Vernam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_1/MyBigIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_2/AdiShamirTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_2/FileCryptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_2/VernamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/DiffieHellman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/DiffieHellman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/ExtendedGCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_1/ExtendedGCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/ByteEncryption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/CryptoAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/FileEncryption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_2/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/DiffieHellmanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_1/DiffieHellmanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/DiffieHellman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/ExtendedGCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/ByteEncryption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/FileEncryption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_2/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_3/DigitalPunkRock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_3/DigitalPunkRock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +18,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lab_all_IJ_IDEA" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="140">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,28 +36,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab_2/FileCrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lab_2/FileCryptTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Files.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="204">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,17 +68,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/lab_2/AdiShamirTest.java">
+        <entry file="file://$PROJECT_DIR$/src/lab_2/RSA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="140">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,6 +164,7 @@
       <find>int</find>
       <find>ObjectOutputStream</find>
       <find>System.ou</find>
+      <find>file</find>
     </findStrings>
     <replaceStrings>
       <replace>materialBI</replace>
@@ -207,6 +183,7 @@
       <replace>materialArrListBI</replace>
       <replace>long</replace>
       <replace>ObjectInputStream</replace>
+      <replace>inFile</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -241,7 +218,6 @@
         <option value="$PROJECT_DIR$/test/lab_2/VernamTest.java" />
         <option value="$PROJECT_DIR$/test/lab_2/ElGamalTest.java" />
         <option value="$PROJECT_DIR$/src/lab_2/ElGamal.java" />
-        <option value="$PROJECT_DIR$/src/lab_2/RSA.java" />
         <option value="$PROJECT_DIR$/src/lab_2/Vernam.java" />
         <option value="$PROJECT_DIR$/src/lab_1/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/lab_2/AdiShamir.java" />
@@ -249,6 +225,7 @@
         <option value="$PROJECT_DIR$/test/lab_2/FileCryptTest.java" />
         <option value="$PROJECT_DIR$/src/lab_2/FileCrypt.java" />
         <option value="$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_2/RSA.java" />
         <option value="$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" />
       </list>
     </option>
@@ -462,34 +439,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileCryptTest_SHARED_TEST - 2019.11.29 at 21h 09m 09s.xml">
-      <configuration name="FileCryptTest.SHARED_TEST" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 20h 57m 37s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 22h 27m 36s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 20h 59m 04s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 22h 33m 54s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 04m 32s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 22h 34m 16s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 04m 48s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 37m 00s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 06m 57s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 37m 30s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 13m 17s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 41m 16s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 14m 54s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 41m 53s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 15m 05s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 42m 21s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.11.30 at 21h 15m 16s.xml">
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 43m 10s.xml">
+      <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitalPunkRockTest_md5_hash - 2019.12.01 at 21h 45m 14s.xml">
       <configuration name="DigitalPunkRockTest.md5_hash" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -506,17 +483,17 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Favorites" order="7" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.28322148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_2/RSA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_2/AdiShamir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -816,27 +783,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_2/FileCrypt.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1292">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_2/FileCryptTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="782">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -886,31 +843,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="204">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/FileCryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/RSA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_2/FileCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="140">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
