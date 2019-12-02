@@ -15,6 +15,13 @@ public class RSA implements CryptoAbonent {
     final BigInteger glob_range__BI = BigInteger.valueOf(range_for_biginteger);
 
 
+    public BigInteger getdBI() {
+        return dBI;
+    }
+
+    public BigInteger getnBI() {
+        return nBI;
+    }
 
     public void _self_send_create_shared_data(CryptoAbonent communicatorCryptoAbonent) throws Exception {
         BigInteger max_diapason__BI = BigInteger.valueOf(range_for_biginteger);
@@ -48,7 +55,11 @@ public class RSA implements CryptoAbonent {
         ArrayList<BigInteger> sending_d_and_n__ArrListBI = new ArrayList<BigInteger>();
         sending_d_and_n__ArrListBI.add(dBI);
         sending_d_and_n__ArrListBI.add(nBI);
-        communicatorCryptoAbonent._set_receiv_shared_data(sending_d_and_n__ArrListBI);
+
+
+        if (communicatorCryptoAbonent != null) {
+            communicatorCryptoAbonent._set_receiv_shared_data(sending_d_and_n__ArrListBI);
+        }
     }
 
 
@@ -73,12 +84,29 @@ public class RSA implements CryptoAbonent {
     @Override
     public BigInteger decrypt(BigInteger material_decript__BI) throws Exception {
         //проверка, что мы являемся отправителями замка
-        boolean we_are_the_senders_lock__BOOL = p1BI  != null; //если у нас есть секретные данные, то мы отрпавители (плохая проверка)
+        boolean we_are_the_senders_lock__BOOL = p1BI != null; //если у нас есть секретные данные, то мы отрпавители (плохая проверка)
         if (!we_are_the_senders_lock__BOOL) {
             throw new Exception("we not are the senders lock");
         }
 
         //mes = mes_cript^d mod n
         return material_decript__BI.modPow(this.cBI, this.nBI);
+    }
+
+
+
+
+
+
+
+    public BigInteger secret_key_encrypt(BigInteger material_for_crypt__BI) {
+        return material_for_crypt__BI.modPow(this.cBI, this.nBI);
+    }
+    static public BigInteger public_key_compensation_secret_key(
+            BigInteger material_for_decrypt__BI,
+            BigInteger d_of_verifiable__BI,
+            BigInteger n_of_verifiable__BI
+    ) {
+        return material_for_decrypt__BI.modPow(d_of_verifiable__BI, n_of_verifiable__BI);
     }
 }

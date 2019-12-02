@@ -3,6 +3,7 @@ package lab_3;
 import lab_2.CryptoAbonent;
 import lab_2.FileCrypt;
 import lab_2.RSA;
+import lab_2.StringCrypt;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,22 +20,18 @@ import static com.sun.deploy.util.SystemUtils.getFileChecksum;
 
 
 public class DigitalPunkRock {
-    public void digital_signature (File inputFile, File output_for_signature__File) throws Exception {
-        /*String md5Str = md5_hash(inputFile);
+    static public void digital_signature (
+            File inputFile,
+            File output_for_signature__File,
+            RSA personaRSA) throws Exception {
 
-        //записываем в файл эту строку
+        String md5Str = md5_hash(inputFile);
 
-        //шифруемм файл откртым замком при помощи RSA
-
-        CryptoAbonent personaCryptAbon = new RSA();
-        CryptoAbonent recipientCrypAbon = null;
-
-        FileCrypt.encrypt(
+        FileCrypt.secret_key_encription(
                 inputFile,
                 output_for_signature__File,
-                personaCryptAbon,
-                recipientCrypAbon
-        );*/
+                personaRSA
+        );
     }
 
 
@@ -49,7 +46,7 @@ public class DigitalPunkRock {
 
         return checksumStr.toLowerCase();
     }
-    public static String md5Custom(String st) {
+    static public String md5Custom(String st) {
         MessageDigest messageDigest = null;
         byte[] digest = new byte[0];
 
