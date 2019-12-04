@@ -1,0 +1,10 @@
+определить стоимость определеного ПК
+
+SELECT Comp_Config.Comp_ID, Computers.Name, Sum(Comp_Parts.Price) AS [Sum-Price]
+FROM Computers INNER JOIN (Comp_Parts INNER JOIN Comp_Config ON Comp_Parts.Part_ID = Comp_Config.Part_ID) ON Computers.Comp_ID = Comp_Config.Comp_ID
+GROUP BY Comp_Config.Comp_ID, Computers.Name;
+
+запрос1
+SELECT Comp_Parts.Part_ID, Comp_Parts.Name, Computers.Name, Max([MAXim]) AS Выражение1
+FROM (Computers INNER JOIN (Comp_Parts INNER JOIN Comp_Config ON Comp_Parts.Part_ID = Comp_Config.Part_ID) ON Computers.Comp_ID = Comp_Config.Comp_ID) INNER JOIN [Вывести сведения о конфигурации комьютера макс мин стоимостью] ON Computers.Comp_ID = [Вывести сведения о конфигурации комьютера макс мин стоимостью].Comp_ID
+GROUP BY Comp_Parts.Part_ID, Comp_Parts.Name, Computers.Name, Comp_Parts.Price;

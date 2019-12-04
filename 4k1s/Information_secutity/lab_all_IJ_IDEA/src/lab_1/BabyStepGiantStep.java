@@ -24,7 +24,7 @@ public class BabyStepGiantStep {
 
         //<value_mod, index_in_series_of_numbers>
         Map<BigInteger, BigInteger> aMapBIBI = new HashMap<BigInteger, BigInteger>(); //y,ay,a^2 y,…,a^(m-1) y (mod p)
-        //secon sequence a^m,a^2m,…,a^km (mod p)
+        //переменную не написал secon sequence a^m,a^2m,…,a^km (mod p)
 
 
         BigInteger curretn_a_pow_i_BI = BigInteger.ONE;
@@ -32,7 +32,7 @@ public class BabyStepGiantStep {
                 BigInteger iBI = BigInteger.ZERO;
                 iBI.compareTo(mBI) == -1; // i < m
                 iBI = iBI.add(BigInteger.ONE)
-        ) { //y,ay,a^2 y,…,a^(m-1) y (mod p)
+        ) { //y,ay,a^2 y,…,a^(m-1) y (mod p) //шаг младенца
             //current_item = y * a^i mod p
             BigInteger current_item_BI = curretn_a_pow_i_BI.multiply(yBI).mod(pBI);
             aMapBIBI.put(current_item_BI, iBI);
@@ -50,7 +50,7 @@ public class BabyStepGiantStep {
                 BigInteger iBI = BigInteger.ZERO;
                 iBI.compareTo(kBI) == -1; // i < m
                 iBI = iBI.add(BigInteger.ONE)
-        ) { //a^m,a^2m,…,a^km (mod p)
+        ) { //a^m,a^2m,…,a^km (mod p) шаг великана
             count_iteration_costil__Double++; //потому что хеш константное время имеет
             //current_item = (a^m)^i(mod p), i = 1 -> k
             BigInteger current_item_BI = current_a_pow_m_pow_i_BI.mod(pBI);

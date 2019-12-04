@@ -60,6 +60,10 @@ public class BabyStepGiantStepTest {
             assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
             assertEquals(expected_x_BI, xBI);
         }
+
+
+
+
         for (int i = 1; i < 7; i++) {
             for (int j = 1; j < 7; j++) {
                 for (int k = 1; k < 7; k++) {
