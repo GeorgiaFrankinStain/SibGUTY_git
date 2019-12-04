@@ -48,6 +48,20 @@ public class BabyStepGiantStepTest {
 
         // решение есть
         {
+            BigInteger expected_x_BI = BigInteger.valueOf(10);
+            BigInteger aBI = BigInteger.valueOf(18);
+            BigInteger pBI = BigInteger.valueOf(13);
+//            BigInteger yBI = BigInteger.valueOf(9); // FastExponentiationModulo.get(aBI, expected_x_BI, pBI); //9;
+            BigInteger yBI = BigInteger.valueOf(12); // FastExponentiationModulo.get(aBI, expected_x_BI, pBI); //9;
+
+
+            double actual_count_iteration__Double = 0;
+            BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
+            assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
+//            assertEquals(expected_x_BI, xBI);
+            assertTrue( FastExponentiationModulo.get(aBI, xBI, pBI).compareTo(yBI) == 0);
+        }
+        {
             BigInteger expected_x_BI = BigInteger.valueOf(5);
             BigInteger aBI = BigInteger.valueOf(2);
             BigInteger pBI = BigInteger.valueOf(23);
@@ -58,7 +72,8 @@ public class BabyStepGiantStepTest {
             double actual_count_iteration__Double = 0;
             BigInteger xBI = BabyStepGiantStep.get(aBI, yBI, pBI, actual_count_iteration__Double);
             assertTrue(actual_count_iteration__Double <= expected_computational_complexity(pBI));
-            assertEquals(expected_x_BI, xBI);
+//            assertEquals(expected_x_BI, xBI);
+            assertTrue( FastExponentiationModulo.get(aBI, xBI, pBI).compareTo(yBI) == 0);
         }
 
 

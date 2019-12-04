@@ -27,51 +27,44 @@ public class BabyStepGiantStep {
         //переменную не написал secon sequence a^m,a^2m,…,a^km (mod p)
 
 
-        BigInteger curretn_a_pow_i_BI = BigInteger.ONE;
-        for (
-                BigInteger iBI = BigInteger.ZERO;
-                iBI.compareTo(mBI) == -1; // i < m
-                iBI = iBI.add(BigInteger.ONE)
-        ) { //y,ay,a^2 y,…,a^(m-1) y (mod p) //шаг младенца
-            //current_item = y * a^i mod p
-            BigInteger current_item_BI = curretn_a_pow_i_BI.multiply(yBI).mod(pBI);
-            aMapBIBI.put(current_item_BI, iBI);
+        BigInteger curretn_a_pow_j_BI = BigInteger.ONE;
 
-            curretn_a_pow_i_BI = curretn_a_pow_i_BI.multiply(aBI);
+        for (
+                BigInteger jBI = BigInteger.ZERO;
+                jBI.compareTo(mBI) == -1; // i < m
+                jBI = jBI.add(BigInteger.ONE)
+        ) { //y,ay,a^2 y,…,a^(m-1) y (mod p) //шаг младенца [0, m)
+            //current_item = y * a^i mod p
+            BigInteger current_item_BI = curretn_a_pow_j_BI.multiply(yBI).mod(pBI);
+            aMapBIBI.put(current_item_BI, jBI);
+
+            curretn_a_pow_j_BI = curretn_a_pow_j_BI.multiply(aBI);
             count_iteration_costil__Double++;
         }
 
 
         // System.out.println("aMapBIBI: " + aMapBIBI.toString()); //DEBUG_DELETE
-        BigInteger a_pow_m_BI = aBI.pow(mBI.intValue());
-        BigInteger current_a_pow_m_pow_i_BI = BigInteger.ONE;
-        BigInteger next_a_pow_m_pow_i_BI = a_pow_m_BI;
+
         for (
-                BigInteger iBI = BigInteger.ZERO;
-                iBI.compareTo(kBI) == -1; // i < m
+                BigInteger iBI = BigInteger.ONE;
+                (iBI.compareTo(mBI) == -1) || (iBI.compareTo(mBI) == 0); // i < m || i == m не совпадает с псевдокодом из методички
                 iBI = iBI.add(BigInteger.ONE)
-        ) { //a^m,a^2m,…,a^km (mod p) шаг великана
+        ) { //a^m,a^2m,…,a^km (mod p) //шаг великана [1, m]
             count_iteration_costil__Double++; //потому что хеш константное время имеет
             //current_item = (a^m)^i(mod p), i = 1 -> k
-            BigInteger current_item_BI = current_a_pow_m_pow_i_BI.mod(pBI);
+            BigInteger current_item_BI = aBI.modPow(mBI.multiply(iBI), pBI);
             // System.out.println("current_item_BI + " + current_item_BI); //DEBUG_DELETE
 
 
             if (aMapBIBI.containsKey(current_item_BI)) {
                 BigInteger jBI = aMapBIBI.get(current_item_BI);
                 BigInteger xBI = iBI.multiply(mBI).subtract(jBI);
-                if (FastExponentiationModulo.get(aBI, xBI, pBI).compareTo(yBI) == 0) {
+//                return xBI;
+                if (FastExponentiationModulo.get(aBI, xBI, pBI).compareTo(yBI) == 0) { //КОСТЫЛЬ
                     // System.out.println("xBI: " + xBI); //DEBUG_DELETE
                     return xBI;
-
                 }
             }
-
-
-            current_a_pow_m_pow_i_BI = next_a_pow_m_pow_i_BI;
-            next_a_pow_m_pow_i_BI = next_a_pow_m_pow_i_BI.multiply(a_pow_m_BI);
-
-
         }
         // System.out.println(); //DEBUG_DELETE
 
