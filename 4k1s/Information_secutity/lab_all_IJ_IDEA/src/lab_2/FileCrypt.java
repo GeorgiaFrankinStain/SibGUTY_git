@@ -90,6 +90,7 @@ static public boolean check_author_persona(
 
 
         ObjectInputStream inObjectInputStream = new ObjectInputStream(crypt_hash__FileInputStream);
+
         long count_of_big_integer__long = inObjectInputStream.readLong();
 
         String decrypt_hash__Str = "";

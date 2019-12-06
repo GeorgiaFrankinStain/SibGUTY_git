@@ -6,13 +6,6 @@ import java.util.ArrayList;
 
 
 public interface CryptoAbonent {
-        enum MethodWrite {
-                BIG_INTEGER,
-                ARR_LIST_BIG_INTEGER
-        }
-
-
-
         void _self_send_create_shared_data(CryptoAbonent communicatorCryptoAbonent) throws Exception;
 
         void _set_receiv_shared_data(Object input_key__byte) throws Exception;
@@ -29,31 +22,34 @@ public interface CryptoAbonent {
         default public ArrayList<BigInteger> encrypt_in_ArrList(
                         BigInteger material_encrypt__BI,
                         CryptoAbonent communicatorCryptoAbonent) throws Exception {
+
+                //k = rand()   1 <= k <= p - 2
+                //r = g^k mod p
+                //e = m * Db^k mod p
                 return new ArrayList<BigInteger>();
+//                ArrayList<BigInteger> r_and_mes_crypt__ArrListBI = new ArrayList<BigInteger>();
+//                return r_and_mes_crypt__ArrListBI;
+        }
+        default public BigInteger decrypt(ArrayList<BigInteger> r_and_mes_crypt__ArrListBI) {
+                return null;
+                //m_decrypt = e * r^(p - 1 - Cb) mod p
         }
 
 
-        default public void file_encrypt(
+        default public void file_encrypt_for(
                         File inputFile,
                         File outputFile,
                         CryptoAbonent recipientCrypAbon) throws Exception {
 
                 CryptoAbonent senderCryptAbon = this;
-
                 FileInputStream input = null;
-
                 input = new FileInputStream(inputFile);
-
                 FileOutputStream outFileOutputStream = new FileOutputStream(outputFile);
 
 
                 senderCryptAbon._self_send_create_shared_data(recipientCrypAbon);
-
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(outFileOutputStream);
-                byte[] temp__arr_byte = new byte[1];
-                objectOutputStream.write(temp__arr_byte, 0, 1); //оставляем пустое место для типа данных сериализации
                 objectOutputStream.writeLong(inputFile.length());
-
 
                 int current_byte = -1;
                 while ((current_byte = input.read()) != -1) {
@@ -65,27 +61,11 @@ public interface CryptoAbonent {
                                         BigInteger.valueOf(current_byte),
                                         senderCryptAbon
                         );
-                        if (encryptBI != null) {
-                                objectOutputStream.writeObject(encryptBI);
-                                continue;
-                        }
-
-
-
-
-                        //обработку более широким типом данных
-                        ArrayList<BigInteger> encryptArrListBI = encrypt_in_ArrList(
-                                        BigInteger.valueOf(current_byte),
-                                        senderCryptAbon
-                        );
-                        objectOutputStream.writeObject(encryptArrListBI);
+                        objectOutputStream.writeObject(encryptBI);
                 }
-                byte[] type_writing__arr_byte = new byte[1];
-                int test = (int) CryptoAbonent.MethodWrite.ARR_LIST_BIG_INTEGER.ordinal();;
-                type_writing__arr_byte[0] = (byte) test;
-                objectOutputStream.write((byte[]) type_writing__arr_byte, 0, 1); //записываем тип данных сериализации
-        }
 
+                objectOutputStream.close();
+        }
 
         default public void file_decrypt_for(
                         File inputFile,
@@ -100,6 +80,7 @@ public interface CryptoAbonent {
 
 
                 ObjectInputStream inObjectInputStream = new ObjectInputStream(inFileInputStream);
+
                 long count_of_big_integer__long = inObjectInputStream.readLong();
 
 
