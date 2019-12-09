@@ -1,5 +1,7 @@
 package lab_2;
 
+import lab_3.DigitalSignature;
+
 import java.io.*;
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -7,6 +9,11 @@ import java.util.ArrayList;
 
 public interface CryptoAbonent {
         void _self_send_create_shared_data(CryptoAbonent communicatorCryptoAbonent) throws Exception;
+
+        void get_public_data(File output_for_data__File) throws IOException;
+        void get_secret_data(File output_for_data__File) throws IOException;
+
+        public ArrayList<BigInteger> get_public_data(); //LINK8798679665 правильно ли делать этот интерфейс здесь?
 
         void _set_receiv_shared_data(Object input_key__byte) throws Exception;
 
@@ -34,7 +41,28 @@ public interface CryptoAbonent {
                 return null;
                 //m_decrypt = e * r^(p - 1 - Cb) mod p
         }
+        static public void secret_key_encrypt(
+                        String materialStr,
+                        File outputFile,
+                        DigitalSignature personaDigitalSignature) throws Exception {
 
+
+                FileOutputStream outFileOutputStream = new FileOutputStream(outputFile);
+
+                ObjectOutputStream objectOutputStream = new ObjectOutputStream(outFileOutputStream);
+                objectOutputStream.writeLong(materialStr.length());
+
+
+
+
+                for (int i = 0; i < materialStr.length(); i++) {
+                        char current__char = materialStr.charAt(i);
+
+                        ArrayList<BigInteger> encryptArrayListBI = personaDigitalSignature.secret_key_encrypt(BigInteger.valueOf((int) current__char));
+
+                        objectOutputStream.writeObject(encryptArrayListBI);
+                }
+        }
 
         default public void file_encrypt_for(
                         File inputFile,
@@ -91,5 +119,6 @@ public interface CryptoAbonent {
                         char output__char = (char) decryptBI.intValue();
                         outFileOutputStream.write(output__char);
                 }
+                outFileOutputStream.close();
         }
 }

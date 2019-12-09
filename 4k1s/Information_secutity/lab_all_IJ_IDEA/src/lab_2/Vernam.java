@@ -4,8 +4,11 @@ package lab_2;
 import lab_1.MyBigInteger;
 import lab_1.PrimeNumber;
 
+import java.io.File;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Vernam implements CryptoAbonent  {
@@ -25,7 +28,23 @@ public class Vernam implements CryptoAbonent  {
 
         communicatorCryptoAbonent._set_receiv_shared_data(this.keyBI);
     }
-    @Override
+
+@Override
+public void get_public_data(File output_for_data__File) throws IOException {
+
+}
+
+@Override
+public void get_secret_data(File output_for_data__File) throws IOException {
+
+}
+
+@Override
+public ArrayList<BigInteger> get_public_data() {
+    return null;
+}
+
+@Override
     public void _set_receiv_shared_data(Object input_key__byte) {
         //TODO: null test input_key__byte
         this.keyBI = (BigInteger) input_key__byte;

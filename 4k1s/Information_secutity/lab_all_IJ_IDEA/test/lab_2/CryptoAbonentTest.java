@@ -13,8 +13,8 @@ public class CryptoAbonentTest {
         private CryptoAbonent[] arrayAllTypeCryptAbon () {
 
                 CryptoAbonent[] tArrCryptAbon = {
-                                new ElGamal(),
-//                                new RSA(),
+//                                new ElGamal(),
+                                new RSA(),
 //                                new AdiShamir(),
 //                                new Vernam()
                 };
@@ -38,6 +38,7 @@ public class CryptoAbonentTest {
 
 
 
+/*
 
 
 
@@ -71,6 +72,7 @@ public class CryptoAbonentTest {
 
 
 
+*/
 
 
 
