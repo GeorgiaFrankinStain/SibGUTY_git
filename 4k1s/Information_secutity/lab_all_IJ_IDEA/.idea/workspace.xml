@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab_3/Gost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_3/GostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data_base/Lab 1/LR-1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Data_base/Lab 1/lab_1 ИВ-622 Тимофеев Д.А..accdb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_4/PlayerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_4/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_4/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_files/lab_3/DigitalSignature/test_md5_signature.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests_files/lab_3/DigitalSignature/test_md5_signature.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_files/lab_3/Gost/test_md5_gost_signature.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests_files/lab_3/Gost/test_md5_gost_signature.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,56 +24,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAbonent.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab_4/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
+                <element signature="e#2027#2028#0" expanded="true" />
+                <element signature="e#2113#2114#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2197#2198#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/Vernam.java">
+        <entry file="file://$PROJECT_DIR$/test/lab_4/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_2/RSA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="129" column="62" selection-start-line="129" selection-start-column="62" selection-end-line="129" selection-end-column="62" />
-              <folding>
-                <element signature="method#get_public_data#0;class#RSA#0" />
-                <element signature="method#get_secret_data#0;class#RSA#0" />
-                <element signature="method#get_public_data#1;class#RSA#0" />
-                <element signature="method#_self_send_create_shared_data#0;class#RSA#0" />
-                <element signature="method#_set_receiv_shared_data#0;class#RSA#0" />
-                <element signature="method#encrypt#0;class#RSA#0" />
-                <element signature="method#decrypt#0;class#RSA#0" />
-                <element signature="method#public_key_compensation_secret_key#0;class#RSA#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/BigInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42823">
-              <caret line="2578" selection-start-line="2578" selection-end-line="2578" />
+            <state relative-caret-position="357">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -82,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalSignature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="455">
               <caret line="63" selection-start-line="63" selection-end-line="75" selection-end-column="97" />
               <folding>
                 <element signature="method#digital_signature#0;class#DigitalSignature#0" />
@@ -92,33 +63,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalSignatureTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="26" column="71" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_3/Gost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="207" column="97" lean-forward="true" selection-start-line="207" selection-start-column="97" selection-end-line="207" selection-end-column="97" />
+            <state relative-caret-position="455">
+              <caret line="207" column="97" selection-start-line="207" selection-start-column="97" selection-end-line="207" selection-end-column="97" />
               <folding>
                 <element signature="method#Gost#0;class#Gost#0" />
                 <element signature="method#get_group_data#0;class#Gost#0" />
-                <element signature="e#8384#8468#1" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/lab_3/GostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -136,50 +88,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CryptoAbonent</find>
-      <find>.bin</find>
-      <find>lab2</find>
-      <find>System</find>
-      <find>revipientArrCryptAbon</find>
-      <find>enctypt</find>
-      <find>enctyptFile</find>
-      <find>dectyptFile</find>
-      <find>senderCryptAbon</find>
-      <find>recipientCrypAbon</find>
-      <find>SySte</find>
-      <find>== Nu</find>
-      <find>current_recipient__CryptAbon</find>
-      <find>_self</find>
-      <find>secret_key_c__BI</find>
-      <find>my_pub_key__BI</find>
-      <find>() &quot;\n&quot;</find>
-      <find>pBI</find>
-      <find>gBI</find>
-      <find>dBI</find>
-      <find>nBI</find>
-      <find>cBI</find>
-      <find>digital</find>
-      <find>encryptBI</find>
-      <find>BigInteger</find>
-      <find>readO</find>
-      <find>crypt_hash__FileInputStream</find>
-      <find>rBI</find>
-      <find>valid</find>
-      <find>checksumBI</find>
+      <find>pair</find>
+      <find>Pair</find>
+      <find>resArrMapStrBI</find>
+      <find>matching_deck__ArrPairStrBI</find>
+      <find>Map&lt;String, BigInteger&gt;</find>
+      <find>matching_deck__MapStrBI</find>
+      <find>create_matching_numbers__cards</find>
+      <find>counter_decrypt</find>
+      <find>counter_encrypt</find>
+      <find>_decrypt_cars</find>
+      <find>-----------</find>
+      <find>start_decrytp</find>
+      <find>start</find>
+      <find>my_cards__ArrBI</find>
+      <find>!!!!!!</find>
+      <find>number_dec</find>
+      <find>modPow</find>
+      <find>System.out.println</find>
+      <find>matching_deck__MapBIStr</find>
+      <find>decrypt</find>
+      <find>crypt</find>
+      <find>ini</find>
+      <find>genera</find>
+      <find>create_deck</find>
+      <find>==========</find>
+      <find>=============</find>
+      <find>===============</find>
+      <find>my_car</find>
+      <find>cre</find>
+      <find>create</find>
     </findStrings>
     <replaceStrings>
-      <replace>personaRSA</replace>
-      <replace>curretn_a_pow_j_BI</replace>
-      <replace>jBI</replace>
-      <replace>type_object__arr_byte</replace>
-      <replace>_CryptoAbonentTest.bin</replace>
-      <replace>lab_2</replace>
-      <replace>tArrCryptAbon</replace>
-      <replace>decrypt</replace>
-      <replace>encryptFile</replace>
-      <replace>decryptFile</replace>
-      <replace>current_sender__CryptAbon</replace>
-      <replace>recipient_current__CryptAbon</replace>
       <replace>current_recipient__CryptAbon</replace>
       <replace>secret_key_d__BI</replace>
       <replace>gBI</replace>
@@ -198,6 +138,18 @@
       <replace>place_of_digital_signature__FileInputStream</replace>
       <replace>sBI</replace>
       <replace>valid__BOOL</replace>
+      <replace>deckArrBI</replace>
+      <replace>_local_shuffling_deck_cards</replace>
+      <replace>_continue_shuffling_deck_cards</replace>
+      <replace>_initialization_secret_data</replace>
+      <replace>full_deck__ArrBI</replace>
+      <replace>Map</replace>
+      <replace>resMapStrBI</replace>
+      <replace>matching_deck__MapStrBI</replace>
+      <replace>Map&lt;BigInteger, String&gt;</replace>
+      <replace>matching_deck__MapBIStr</replace>
+      <replace>this.my_cards__ArrBI</replace>
+      <replace>deckArrStr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -247,6 +199,8 @@
         <option value="$PROJECT_DIR$/src/lab_3/DigitalSignature.java" />
         <option value="$PROJECT_DIR$/test/lab_3/GostTest.java" />
         <option value="$PROJECT_DIR$/src/lab_3/Gost.java" />
+        <option value="$PROJECT_DIR$/test/lab_4/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_4/Player.java" />
       </list>
     </option>
   </component>
@@ -262,6 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +247,12 @@
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lab_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
@@ -330,8 +292,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,6 +307,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab_4" />
       <recent name="lab_3" />
       <recent name="lab_2" />
       <recent name="lab_1" />
@@ -371,23 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GostTest.sharedTEST">
-    <configuration name="BabyStepGiantStepTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab_all_IJ_IDEA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab_1" />
-      <option name="MAIN_CLASS_NAME" value="lab_1.BabyStepGiantStepTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlayerTest.sharedTEST">
     <configuration name="CryptoAbonentTest.file_encrypt_and_decrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
@@ -451,20 +396,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerTest.sharedTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_all_IJ_IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab_4" />
+      <option name="MAIN_CLASS_NAME" value="lab_4.PlayerTest" />
+      <option name="METHOD_NAME" value="sharedTEST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
       <item itemvalue="JUnit.CryptoAbonentTest.file_encrypt_and_decrypt" />
       <item itemvalue="JUnit.DigitalPunkRockTest" />
       <item itemvalue="JUnit.DigitalSignatureTest.sharedTEST" />
       <item itemvalue="JUnit.GostTest.sharedTEST" />
+      <item itemvalue="JUnit.PlayerTest.sharedTEST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.sharedTEST" />
         <item itemvalue="JUnit.GostTest.sharedTEST" />
         <item itemvalue="JUnit.DigitalSignatureTest.sharedTEST" />
         <item itemvalue="JUnit.DigitalPunkRockTest" />
         <item itemvalue="JUnit.CryptoAbonentTest.file_encrypt_and_decrypt" />
-        <item itemvalue="JUnit.BabyStepGiantStepTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -482,35 +443,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 17h 11m 38s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 15m 07s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 17h 11m 41s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 52s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 17h 23m 50s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 54s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 09m 59s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 56s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 17m 46s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 18m 23s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 18m 00s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 18m 38s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 26m 18s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 21m 42s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 29m 57s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 01s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 33m 48s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 23s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GostTest_sharedTEST - 2019.12.10 at 19h 34m 19s.xml">
-      <configuration name="GostTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 35s.xml">
+      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -526,7 +487,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.33557048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.34026846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,8 +497,8 @@
       <window_info id="Favorites" order="7" sideWeight="0.50139666" side_tool="true" weight="0.28322148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50139666" visible="true" weight="0.19273743" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50139666" visible="true" weight="0.27793297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44134077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -619,6 +580,18 @@
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_4/PlayerTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab_4/Player.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -664,11 +637,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab_2/Vername.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_2/ProtocolShamir.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAlgorithm.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_2/ByteEncryption.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_2/FileCripto.java" />
     <entry file="file://$PROJECT_DIR$/src/lab_2/ProxyComCryptoAbonent.java" />
     <entry file="file://$PROJECT_DIR$/src/lab_1/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,16 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/MyBigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,20 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/lab_2/ElGamalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -918,6 +862,16 @@
     <entry file="file://$PROJECT_DIR$/src/lab_2/StringCrypt.java" />
     <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" />
     <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAbonent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -964,27 +918,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalSignature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="63" selection-start-line="63" selection-end-line="75" selection-end-column="97" />
-          <folding>
-            <element signature="method#digital_signature#0;class#DigitalSignature#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalSignatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="272">
           <caret line="26" column="71" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
+    <entry file="file://$PROJECT_DIR$/test/lab_3/GostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="289">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
+          <folding>
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#7260#7504#0" expanded="true" />
+            <element signature="e#7503#7504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#958#1199#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/MyBigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -993,20 +989,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_3/Gost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="207" column="97" lean-forward="true" selection-start-line="207" selection-start-column="97" selection-end-line="207" selection-end-column="97" />
+        <state relative-caret-position="455">
+          <caret line="207" column="97" selection-start-line="207" selection-start-column="97" selection-end-line="207" selection-end-column="97" />
           <folding>
             <element signature="method#Gost#0;class#Gost#0" />
             <element signature="method#get_group_data#0;class#Gost#0" />
-            <element signature="e#8384#8468#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_3/GostTest.java">
+    <entry file="file://$PROJECT_DIR$/test/lab_4/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="357">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="63" selection-start-line="63" selection-end-line="75" selection-end-column="97" />
+          <folding>
+            <element signature="method#digital_signature#0;class#DigitalSignature#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_4/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
