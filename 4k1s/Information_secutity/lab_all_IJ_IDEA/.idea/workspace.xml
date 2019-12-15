@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/test/lab_all_IJ_IDEA/lab_4/PlayerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_4/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_4/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_4_beautiful/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lab_4_beautiful/VedushiiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_files/lab_3/Gost/test_md5_gost_signature.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests_files/lab_3/Gost/test_md5_gost_signature.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_4/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/lab_4/Player.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,19 +24,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_4/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="782">
+              <caret line="113" selection-start-line="113" selection-end-line="118" selection-end-column="17" />
               <folding>
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1915#1916#0" expanded="true" />
-                <element signature="e#2027#2028#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
+                <element signature="method#printMy_cards__ArrBI#0;class#Player#0" />
+                <element signature="e#1094#1603#1" />
+                <element signature="e#1252#1585#1" />
+                <element signature="e#1609#1709#1" />
+                <element signature="method#start_deal_cards#0;class#Player#0" />
+                <element signature="e#2372#2453#0" />
+                <element signature="e#3614#3707#1" />
+                <element signature="e#4030#4188#1" />
+                <element signature="e#4435#4822#1" />
+                <element signature="e#5065#5155#1" />
+                <element signature="e#6028#6171#1" />
+                <element signature="e#6177#6336#1" />
+                <element signature="n#!!doc;n#count_create_deck#0;n#Player#0" />
+                <element signature="method#create_deck#0;class#Player#0" />
+                <element signature="e#7861#8236#1" />
+                <element signature="e#8446#8692#1" />
+                <element signature="e#9227#9455#1" />
+                <element signature="e#9461#9533#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_4_beautiful/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+              <folding>
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2115#2116#0" expanded="true" />
+                <element signature="e#2182#2183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="method#matching_deck_with_random_number#0;class#Vedushii#0" />
+                <element signature="e#3332#3464#1" />
+                <element signature="e#3610#3721#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Lab_4_beautiful/VedushiiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -45,32 +108,7 @@
         <entry file="file://$PROJECT_DIR$/test/lab_4/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalSignature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="63" selection-start-line="63" selection-end-line="75" selection-end-column="97" />
-              <folding>
-                <element signature="method#digital_signature#0;class#DigitalSignature#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_3/Gost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="207" column="97" selection-start-line="207" selection-start-column="97" selection-end-line="207" selection-end-column="97" />
-              <folding>
-                <element signature="method#Gost#0;class#Gost#0" />
-                <element signature="method#get_group_data#0;class#Gost#0" />
-              </folding>
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -88,20 +126,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pair</find>
-      <find>Pair</find>
-      <find>resArrMapStrBI</find>
-      <find>matching_deck__ArrPairStrBI</find>
-      <find>Map&lt;String, BigInteger&gt;</find>
-      <find>matching_deck__MapStrBI</find>
-      <find>create_matching_numbers__cards</find>
       <find>counter_decrypt</find>
       <find>counter_encrypt</find>
       <find>_decrypt_cars</find>
       <find>-----------</find>
       <find>start_decrytp</find>
       <find>start</find>
-      <find>my_cards__ArrBI</find>
       <find>!!!!!!</find>
       <find>number_dec</find>
       <find>modPow</find>
@@ -118,12 +148,16 @@
       <find>my_car</find>
       <find>cre</find>
       <find>create</find>
+      <find>deckArrStr.length</find>
+      <find>my_cards__ArrBI</find>
+      <find>new Bi</find>
+      <find>sPlayer</find>
+      <find>cards_current__Player</find>
+      <find>this.pBI</find>
+      <find>DEBUG_DELETE</find>
+      <find>init</find>
     </findStrings>
     <replaceStrings>
-      <replace>current_recipient__CryptAbon</replace>
-      <replace>secret_key_d__BI</replace>
-      <replace>gBI</replace>
-      <replace>my_pub_key__BI</replace>
       <replace>key_pub_of_interlocutor__BI</replace>
       <replace>() + &quot;\n&quot;</replace>
       <replace>my_secret_key__BI</replace>
@@ -150,6 +184,10 @@
       <replace>matching_deck__MapBIStr</replace>
       <replace>this.my_cards__ArrBI</replace>
       <replace>deckArrStr</replace>
+      <replace>my_crypt_cards__ArrBI</replace>
+      <replace>length_of_deck</replace>
+      <replace>allPlayer</replace>
+      <replace>crypt_cards_current__Player</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +239,15 @@
         <option value="$PROJECT_DIR$/src/lab_3/Gost.java" />
         <option value="$PROJECT_DIR$/test/lab_4/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/lab_4/Player.java" />
+        <option value="$PROJECT_DIR$/src/Lab_4_beautiful/Player.java" />
+        <option value="$PROJECT_DIR$/test/Lab_4_beautiful/VedushiiTest.java" />
+        <option value="$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
+    <option name="x" value="677" />
+    <option name="y" value="-10" />
     <option name="width" value="1025" />
     <option name="height" value="730" />
   </component>
@@ -216,8 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,6 +294,12 @@
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lab_4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab_4_beautiful" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
@@ -307,6 +354,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lab_4_beautiful" />
       <recent name="lab_4" />
       <recent name="lab_3" />
       <recent name="lab_2" />
@@ -332,23 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.sharedTEST">
-    <configuration name="CryptoAbonentTest.file_encrypt_and_decrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab_all_IJ_IDEA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab_2" />
-      <option name="MAIN_CLASS_NAME" value="lab_2.CryptoAbonentTest" />
-      <option name="METHOD_NAME" value="file_encrypt_and_decrypt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VedushiiTest">
     <configuration name="DigitalPunkRockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
@@ -412,20 +444,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VedushiiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab_all_IJ_IDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab_4_beautiful.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab_4_beautiful" />
+      <option name="MAIN_CLASS_NAME" value="Lab_4_beautiful.VedushiiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.CryptoAbonentTest.file_encrypt_and_decrypt" />
       <item itemvalue="JUnit.DigitalPunkRockTest" />
       <item itemvalue="JUnit.DigitalSignatureTest.sharedTEST" />
       <item itemvalue="JUnit.GostTest.sharedTEST" />
       <item itemvalue="JUnit.PlayerTest.sharedTEST" />
+      <item itemvalue="JUnit.VedushiiTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VedushiiTest" />
         <item itemvalue="JUnit.PlayerTest.sharedTEST" />
         <item itemvalue="JUnit.GostTest.sharedTEST" />
         <item itemvalue="JUnit.DigitalSignatureTest.sharedTEST" />
         <item itemvalue="JUnit.DigitalPunkRockTest" />
-        <item itemvalue="JUnit.CryptoAbonentTest.file_encrypt_and_decrypt" />
       </list>
     </recent_temporary>
   </component>
@@ -443,35 +490,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 15m 07s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 03m 34s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 52s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 03m 40s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 54s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 03m 54s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 17m 56s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 04m 03s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 18m 23s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 05m 12s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 18m 38s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 06m 16s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 21m 42s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 06m 46s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 01s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 03s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 23s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 20s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_sharedTEST - 2019.12.13 at 18h 23m 35s.xml">
-      <configuration name="PlayerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 36s.xml">
+      <configuration name="VedushiiTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -487,7 +534,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.34026846" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.34966442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -497,15 +544,15 @@
       <window_info id="Favorites" order="7" sideWeight="0.50139666" side_tool="true" weight="0.28322148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50139666" visible="true" weight="0.27793297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44134077" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50139666" visible="true" weight="0.29189944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51256984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.20530726" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.11312849" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
@@ -592,6 +639,12 @@
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -637,27 +690,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab_2/ProxyComCryptoAbonent.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_1/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -862,16 +894,6 @@
     <entry file="file://$PROJECT_DIR$/src/lab_2/StringCrypt.java" />
     <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalPunkRock.java" />
     <entry file="file://$PROJECT_DIR$/test/lab_3/DigitalPunkRockTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_2/CryptoAbonent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -970,13 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_1/MyBigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -998,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_4/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_3/DigitalSignature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -1015,17 +1023,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_1/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_4/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_4/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="782">
+          <caret line="113" selection-start-line="113" selection-end-line="118" selection-end-column="17" />
           <folding>
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="method#printMy_cards__ArrBI#0;class#Player#0" />
+            <element signature="e#1094#1603#1" />
+            <element signature="e#1252#1585#1" />
+            <element signature="e#1609#1709#1" />
+            <element signature="method#start_deal_cards#0;class#Player#0" />
+            <element signature="e#2372#2453#0" />
+            <element signature="e#3614#3707#1" />
+            <element signature="e#4030#4188#1" />
+            <element signature="e#4435#4822#1" />
+            <element signature="e#5065#5155#1" />
+            <element signature="e#6028#6171#1" />
+            <element signature="e#6177#6336#1" />
+            <element signature="n#!!doc;n#count_create_deck#0;n#Player#0" />
+            <element signature="method#create_deck#0;class#Player#0" />
+            <element signature="e#7861#8236#1" />
+            <element signature="e#8446#8692#1" />
+            <element signature="e#9227#9455#1" />
+            <element signature="e#9461#9533#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Lab_4_beautiful/VedushiiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_4_beautiful/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="92" column="61" lean-forward="true" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="method#matching_deck_with_random_number#0;class#Vedushii#0" />
+            <element signature="e#3332#3464#1" />
+            <element signature="e#3610#3721#1" />
           </folding>
         </state>
       </provider>
