@@ -35,7 +35,7 @@ public class Vedushii {
         public void deal_cards(int number_of_players, int how_many_deal) throws Exception {
                 //FIXME исключение на то, хватит ли карт игрокам и на прикуп
                 this.pBI = PrimeNumber.generate(max_range__BI);
-                this.pBI = BigInteger.valueOf(127); //DEBUG_DELETE
+//                this.pBI = BigInteger.valueOf(127); //DEBUG_DELETE
                 BigInteger[] deckArrBI = create_deck(deck_title__ArrStr.length);
                 Map<BigInteger, String> matchint_deck__MapBIStr =
                                 matching_deck_with_random_number(deckArrBI, deck_title__ArrStr);
