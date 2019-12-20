@@ -1,0 +1,7 @@
+strict graph {
+    node [label="\N", style=filled];
+
+    1    [fillcolor=#555555];
+    2    [fillcolor=red];
+    1 -- 2
+}

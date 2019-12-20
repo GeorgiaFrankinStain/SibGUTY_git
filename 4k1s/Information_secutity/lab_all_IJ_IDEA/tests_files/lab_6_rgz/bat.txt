@@ -1,0 +1,1 @@
+dot -Tpng print_to_file_test.dot -o test.png

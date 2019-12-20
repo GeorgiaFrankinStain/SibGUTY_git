@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab_5/ChekingDublicateServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_5/CounterServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_5/MyMd5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_5/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lab_5/ChekingDublicateServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6_rgz/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Data_base/Lab_2/lab_1 mod ИВ-622 Тимофеев Д.А..accdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Data_base/Lab_2/lab_1 mod ИВ-622 Тимофеев Д.А..accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Data_base/Lab_2/lab_1 mod ИВ-622 Тимофеев Д.А..laccdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Data_base/Lab_2/ИВ-622 Тимофеев Д.А. lab_2.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Data_base/Lab_2/ИВ-622 Тимофеев Д.А. lab_2.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Data_base/Lab_2/ИВ-622 Тимофеев Д.А. lab_2.laccdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Data_base/THEFT/БД/~$беденко_Лапова06.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Data_base/THEFT/БД/ИВ-622 ЛейкаКЭ lab3.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Data_base/THEFT/БД/ИВ-622 ЛейкаКЭ lab3.accdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/Lab_4_beautiful/Vedushii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab_all_IJ_IDEA/Lab_4_beautiful/Vedushii.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_4_beautiful/Vedushii.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +32,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_5/ChekingDublicateServer.java">
+        <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="23">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#862#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,33 +55,78 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/lab_5/ChekingDublicateServerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_5/CounterServer.java">
+        <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="209">
+              <caret line="113" column="113" selection-start-line="113" selection-start-column="113" selection-end-line="113" selection-end-column="113" />
               <folding>
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
+                <element signature="method#create_image#0;class#Graph#0" />
+                <element signature="e#1661#2379#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab_5/Users.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ProcessBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16830">
+              <caret line="1046" column="58" selection-start-line="1046" selection-start-column="58" selection-end-line="1046" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10047">
+              <caret line="619" column="13" selection-start-line="619" selection-start-column="13" selection-end-line="619" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3179">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -85,11 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-----------</find>
-      <find>start_decrytp</find>
-      <find>start</find>
-      <find>!!!!!!</find>
-      <find>number_dec</find>
       <find>modPow</find>
       <find>System.out.println</find>
       <find>matching_deck__MapBIStr</find>
@@ -115,12 +169,13 @@
       <find>candidate</find>
       <find>md</find>
       <find>MessageDigest</find>
+      <find>number_of_nodes</find>
+      <find>inputGraph</find>
+      <find>outputFile</find>
+      <find>color</find>
+      <find>FIXME</find>
     </findStrings>
     <replaceStrings>
-      <replace>() + &quot;\n&quot;</replace>
-      <replace>my_secret_key__BI</replace>
-      <replace>dBI</replace>
-      <replace>nBI</replace>
       <replace>p1BI</replace>
       <replace>p2BI</replace>
       <replace>cBI</replace>
@@ -147,6 +202,10 @@
       <replace>allPlayer</replace>
       <replace>crypt_cards_current__Player</replace>
       <replace>candidateArrStr</replace>
+      <replace>count_of_nodes</replace>
+      <replace>this</replace>
+      <replace>output_dot__File</replace>
+      <replace>current_color</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\SibGUTY_git\4k1s\Information_secutity\lab_all_IJ_IDEA\src\</dir>
@@ -158,13 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/lab_1/DiffieHellmanTest.java" />
-        <option value="$PROJECT_DIR$/test/lab_1/ExtendedGCDTest.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger2.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/SqrtBigInteger.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java" />
-        <option value="$PROJECT_DIR$/src/lab_1/Runner.java" />
-        <option value="$PROJECT_DIR$/test/lab_1/FastExponentiationModuloTest.java" />
         <option value="$PROJECT_DIR$/test/lab_1/SqrtBigIntegerTest.java" />
         <option value="$PROJECT_DIR$/src/lab_2/ShamirProtocol.java" />
         <option value="$PROJECT_DIR$/src/lab_2/ProtocolShamir.java" />
@@ -209,10 +261,17 @@
         <option value="$PROJECT_DIR$/src/lab_5/Users.java" />
         <option value="$PROJECT_DIR$/src/lab_5/CounterServer.java" />
         <option value="$PROJECT_DIR$/test/lab_5/ChekingDublicateServerTest.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/ColoringGrath.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/MyGrath.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java" />
+        <option value="$PROJECT_DIR$/src/lab_6_rgz/Graph.java" />
+        <option value="$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="675" />
     <option name="y" value="-10" />
     <option name="width" value="1025" />
@@ -242,42 +301,18 @@
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab_4_beautiful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_5" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_6_rgz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_all_IJ_IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab_all_IJ_IDEA" type="b2602c69:ProjectViewProjectNode" />
@@ -309,11 +344,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab_6_rgz" />
       <recent name="lab_5" />
       <recent name="Lab_4_beautiful" />
       <recent name="lab_4" />
       <recent name="lab_3" />
-      <recent name="lab_2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -335,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChekingDublicateServerTest.sharedTEST">
+  <component name="RunManager" selected="JUnit.MyGraphTest.sharedTEST">
     <configuration name="ChekingDublicateServerTest.sharedTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
@@ -352,16 +387,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GostTest.sharedTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyGraphTest.sharedTEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab_all_IJ_IDEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_3.*" />
+          <option name="PATTERN" value="lab_6_rgz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lab_3" />
-      <option name="MAIN_CLASS_NAME" value="lab_3.GostTest" />
+      <option name="PACKAGE_NAME" value="lab_6_rgz" />
+      <option name="MAIN_CLASS_NAME" value="lab_6_rgz.MyGraphTest" />
       <option name="METHOD_NAME" value="sharedTEST" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -416,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GostTest.sharedTEST" />
       <item itemvalue="JUnit.PlayerTest.sharedTEST" />
       <item itemvalue="JUnit.VedushiiTest" />
       <item itemvalue="JUnit.VedushiiTest.sharedTEST" />
       <item itemvalue="JUnit.ChekingDublicateServerTest.sharedTEST" />
+      <item itemvalue="JUnit.MyGraphTest.sharedTEST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyGraphTest.sharedTEST" />
         <item itemvalue="JUnit.ChekingDublicateServerTest.sharedTEST" />
         <item itemvalue="JUnit.VedushiiTest.sharedTEST" />
         <item itemvalue="JUnit.VedushiiTest" />
         <item itemvalue="JUnit.PlayerTest.sharedTEST" />
-        <item itemvalue="JUnit.GostTest.sharedTEST" />
       </list>
     </recent_temporary>
   </component>
@@ -446,35 +481,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VedushiiTest - 2019.12.16 at 02h 06m 46s.xml">
-      <configuration name="VedushiiTest" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 39m 37s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 03s.xml">
-      <configuration name="VedushiiTest" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 40m 11s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 20s.xml">
-      <configuration name="VedushiiTest" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 40m 57s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest - 2019.12.16 at 02h 08m 36s.xml">
-      <configuration name="VedushiiTest" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 42m 25s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest - 2019.12.16 at 02h 09m 06s.xml">
-      <configuration name="VedushiiTest" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 43m 09s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest_sharedTEST - 2019.12.17 at 14h 19m 25s.xml">
-      <configuration name="VedushiiTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 44m 02s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VedushiiTest_sharedTEST - 2019.12.17 at 14h 21m 39s.xml">
-      <configuration name="VedushiiTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 44m 37s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChekingDublicateServerTest_sharedTEST - 2019.12.18 at 18h 35m 44s.xml">
-      <configuration name="ChekingDublicateServerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 47m 51s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChekingDublicateServerTest_sharedTEST - 2019.12.19 at 12h 41m 57s.xml">
-      <configuration name="ChekingDublicateServerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 48m 10s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChekingDublicateServerTest_sharedTEST - 2019.12.19 at 12h 44m 31s.xml">
-      <configuration name="ChekingDublicateServerTest.sharedTEST" configurationId="JUnit" />
+    <history-entry file="MyGraphTest_sharedTEST - 2019.12.21 at 04h 49m 38s.xml">
+      <configuration name="MyGraphTest.sharedTEST" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -490,7 +525,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.3657718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.37651005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -501,7 +536,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50139666" visible="true" weight="0.26536313" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51256984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26815644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -601,6 +636,12 @@
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -646,72 +687,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_2/AdiShamirTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_2/RSATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_1/FastExponentiationModulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/math/MutableBigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="1983" column="11" selection-start-line="1983" selection-start-column="11" selection-end-line="1983" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_1/BabyStepGiantStepTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_1/DiffieHellman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -812,33 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_3/GostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
-          <folding>
-            <element signature="e#2139#2140#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#7260#7504#0" expanded="true" />
-            <element signature="e#7503#7504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -874,13 +822,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1069,30 +1010,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_5/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab_5/ChekingDublicateServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_5/CounterServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1101,6 +1024,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_5/CounterServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_5/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ColoringGrath.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_3/GostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ProcessBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16830">
+          <caret line="1046" column="58" selection-start-line="1046" selection-start-column="58" selection-end-line="1046" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10047">
+          <caret line="619" column="13" selection-start-line="619" selection-start-column="13" selection-end-line="619" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#862#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="113" column="113" selection-start-line="113" selection-start-column="113" selection-end-line="113" selection-end-column="113" />
+          <folding>
+            <element signature="method#create_image#0;class#Graph#0" />
+            <element signature="e#1661#2379#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
