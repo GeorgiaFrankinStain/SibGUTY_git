@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
+
+import static java.lang.Math.abs;
 
 public class Graph {
         public Integer[] nodesArrInteger = null;
@@ -20,7 +23,33 @@ public class Graph {
                 this.edgesArrayListPairIntInt = edgesArrayListPairIntInt;
         }
 
+        static public Graph generate_random_graph(int count_of_nodes) {
+                //создаем массив вершин
+                Integer[] nodesArrBI = new Integer[count_of_nodes];
 
+                int max_count_edges = count_of_nodes * count_of_nodes / 2;
+                Random tRandom = new Random();
+                tRandom.setSeed(134);//FIXME
+                int count_edges = abs(tRandom.nextInt() % max_count_edges);
+        //                int count_edges = abs(max_count_edges);
+
+        //                Map<Integer, Integer> edgesMapIntInt = new HashMap<Integer, Integer>();
+                ArrayList<Pair<Integer, Integer>> edgesArrayListPairIntInt = new ArrayList<Pair<Integer, Integer>>();
+                for (int i = 0; i < count_edges; i++) {
+        //                        tRandom.setSeed(System.nanoTime() + tRandom.nextInt());
+                        int from_node = abs(tRandom.nextInt() % count_of_nodes);
+                        int to_node = abs(tRandom.nextInt() % count_of_nodes);
+
+                        if (from_node == to_node) {
+                                to_node++;
+                                to_node = to_node % count_of_nodes;
+                        }
+
+                        edgesArrayListPairIntInt.add(new Pair<Integer, Integer>(from_node, to_node));
+                }
+
+                return new Graph(nodesArrBI, edgesArrayListPairIntInt);
+        }
 
 
         public void print_to_file_dot(File outputFile) throws IOException {
@@ -35,6 +64,7 @@ public class Graph {
                         if (this.nodesArrInteger[i] != null) {
                                 color_number = this.nodesArrInteger[i] % this.title_color__ArrStr.length; //FIXME NEVER
                                 color_number *= 17;
+                                color_number += 1;
                                 color_number *= color_number;
                                 color_number = color_number % this.title_color__ArrStr.length;
                         }
@@ -72,9 +102,8 @@ public class Graph {
 
 
         public void coloring_graph() {
-                int current_color = 1;
+                int current_color = 0;
                 boolean exists_no_color_nodes__BOOL;
-                int global_i = 0;
                 do {
                         exists_no_color_nodes__BOOL = false;
 
@@ -94,18 +123,13 @@ public class Graph {
 
 
                         current_color++;
-                        System.out.println(global_i);
-//                        global_i++;
-//                        if (global_i == 2) {
-//
-//                                break;//FIXME
-//                        }
 
 
                 } while (exists_no_color_nodes__BOOL);
 
-
+                this.count_color = current_color;
         }
+        public int count_color = 0;
         private boolean exists_are_links_to_nodes_of_the_same_color(int current_pos, int current_color) {
                 for (int j = 0; j < current_pos; j++) {
                         if (this.nodesArrInteger[j] == null) {
