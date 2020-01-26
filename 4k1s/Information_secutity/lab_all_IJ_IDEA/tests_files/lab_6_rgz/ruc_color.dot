@@ -1,0 +1,19 @@
+strict graph {
+    node [label="\N", style=filled];    0	[fillcolor=green];
+    1	[fillcolor=red];
+    2	[fillcolor=red];
+    3	[fillcolor=blue];
+    4	[fillcolor=blue];
+    2 -- 3
+    2 -- 4
+    4 -- 1
+    2 -- 0
+    2 -- 4
+    3 -- 1
+    0 -- 1
+    4 -- 0
+    4 -- 0
+    4 -- 2
+    3 -- 0
+
+}

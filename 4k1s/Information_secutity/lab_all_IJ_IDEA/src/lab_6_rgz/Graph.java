@@ -116,8 +116,8 @@ public class Graph {
                                                 exists_no_color_nodes__BOOL = true;
                                         } else {
                                                 this.nodesArrInteger[i] = current_color;
+//                                                this.nodesArrInteger[i] = 0; //DEBUG_DELETE
                                         }
-
                                 }
                         }
 

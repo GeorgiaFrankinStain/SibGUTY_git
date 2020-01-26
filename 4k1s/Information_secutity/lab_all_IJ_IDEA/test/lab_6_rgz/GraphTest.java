@@ -29,7 +29,12 @@ public class GraphTest {
                 ProvingZeroKnowledgeProofGraphColoring tProvZeroKnowProofGraphColor =
                                 new ProvingZeroKnowledgeProofGraphColoring(coloringGraph);
 
-                assertTrue(tValZeroKnowProofGraphColor.validation(1, tProvZeroKnowProofGraphColor));
+                assertTrue(
+                                tValZeroKnowProofGraphColor.validation(
+                                                2,
+                                                tProvZeroKnowProofGraphColor
+                                )
+                );
 
         }
 }
