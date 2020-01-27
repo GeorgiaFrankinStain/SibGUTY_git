@@ -1,8 +1,14 @@
+
+
 <h1>Все посты</h1>
 <% @post.each do |post| %>
   <div class="alert alert-light">
   <h3><%= post.title %></h3>
   <p><%= post.body %></p>
     <%= link_to "Читать далее", post_path(post), :class => 'btn btn-outline-primary' %>
+
+    <h4>Tags</h4>
+	<!-- <%= post.tag_list %> -->
+	<div><%= post.tag_list %></div>
   </div>
 <% end %>
