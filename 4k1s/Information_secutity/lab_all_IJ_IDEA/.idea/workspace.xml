@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" beforeDir="false" afterPath="$PROJECT_DIR$/../_THEFT/Senchenko/Crypto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_6_rgz/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_6_rgz/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/lab_6_rgz/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/lab_6_rgz/GraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_files/lab_6_rgz/print_to_file_test.dot" beforeDir="false" afterPath="$PROJECT_DIR$/tests_files/lab_6_rgz/print_to_file_test.dot" afterDir="false" />
-    </list>
+    <list default="true" id="9ddbd6b1-63e4-467b-94fe-0e82c2b0b2ec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,24 +21,13 @@
         <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+              <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
               <folding>
                 <element signature="method#Graph#0;class#Graph#0" />
                 <element signature="method#generate_random_graph#0;class#Graph#0" />
-                <element signature="e#1147#1204#0" />
-                <element signature="e#1468#2022#1" />
-                <element signature="e#1763#1901#1" />
                 <element signature="method#print_to_file_dot#0;class#Graph#0" />
-                <element signature="e#971#1677#1" />
-                <element signature="e#1080#1487#1" />
-                <element signature="e#1764#1985#1" />
                 <element signature="method#create_image#0;class#Graph#0" />
-                <element signature="e#2191#2909#0" />
                 <element signature="method#exists_are_links_to_nodes_of_the_same_color#0;class#Graph#0" />
-                <element signature="e#4271#5292#1" />
-                <element signature="e#4334#4403#1" />
-                <element signature="e#4651#5273#1" />
-                <element signature="e#5159#5247#1" />
               </folding>
             </state>
           </provider>
@@ -52,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="442">
               <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,16 +48,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="1190">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
               <folding>
                 <element signature="method#ProvingZeroKnowledgeProofGraphColoring#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
                 <element signature="method#sending_secret_keys_for_vertices_around_given_edge#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
                 <element signature="method#encrypt_node#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-                <element signature="e#2448#2616#1" />
                 <element signature="method#mixing_array#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-                <element signature="e#3593#3657#1" />
-                <element signature="e#3713#4142#1" />
               </folding>
             </state>
           </provider>
@@ -100,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="986">
               <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -261,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,7 +300,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,11 +422,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ChekingDublicateServerTest.sharedTEST" />
+      <item itemvalue="JUnit.GraphTest.sharedTEST" />
+      <item itemvalue="JUnit.MyGraphTest.sharedTEST" />
       <item itemvalue="JUnit.VedushiiTest" />
       <item itemvalue="JUnit.VedushiiTest.sharedTEST" />
-      <item itemvalue="JUnit.ChekingDublicateServerTest.sharedTEST" />
-      <item itemvalue="JUnit.MyGraphTest.sharedTEST" />
-      <item itemvalue="JUnit.GraphTest.sharedTEST" />
     </list>
     <recent_temporary>
       <list>
@@ -515,7 +496,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.38187918" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.3872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1044,36 +1025,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoringTest.java">
+    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoringTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java" />
+    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="203">
+          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <element signature="method#Graph#0;class#Graph#0" />
+            <element signature="method#generate_random_graph#0;class#Graph#0" />
+            <element signature="method#print_to_file_dot#0;class#Graph#0" />
+            <element signature="method#create_image#0;class#Graph#0" />
+            <element signature="method#exists_are_links_to_nodes_of_the_same_color#0;class#Graph#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/MyGraph.java">
+    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/MyGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="442">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java">
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
+        <state relative-caret-position="1190">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#ProvingZeroKnowledgeProofGraphColoring#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
+            <element signature="method#sending_secret_keys_for_vertices_around_given_edge#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
+            <element signature="method#encrypt_node#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
+            <element signature="method#mixing_array#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
           </folding>
         </state>
       </provider>
@@ -1094,53 +1081,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ProvingZeroKnowledgeProofGraphColoring.java">
+    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/ValidatingZeroKnowledgeProofGraphColoring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="method#ProvingZeroKnowledgeProofGraphColoring#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-            <element signature="method#sending_secret_keys_for_vertices_around_given_edge#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-            <element signature="method#encrypt_node#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-            <element signature="e#2448#2616#1" />
-            <element signature="method#mixing_array#0;class#ProvingZeroKnowledgeProofGraphColoring#0" />
-            <element signature="e#3593#3657#1" />
-            <element signature="e#3713#4142#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/lab_6_rgz/GraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="986">
+          <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab_6_rgz/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
-          <folding>
-            <element signature="method#Graph#0;class#Graph#0" />
-            <element signature="method#generate_random_graph#0;class#Graph#0" />
-            <element signature="e#1147#1204#0" />
-            <element signature="e#1468#2022#1" />
-            <element signature="e#1763#1901#1" />
-            <element signature="method#print_to_file_dot#0;class#Graph#0" />
-            <element signature="e#971#1677#1" />
-            <element signature="e#1080#1487#1" />
-            <element signature="e#1764#1985#1" />
-            <element signature="method#create_image#0;class#Graph#0" />
-            <element signature="e#2191#2909#0" />
-            <element signature="method#exists_are_links_to_nodes_of_the_same_color#0;class#Graph#0" />
-            <element signature="e#4271#5292#1" />
-            <element signature="e#4334#4403#1" />
-            <element signature="e#4651#5273#1" />
-            <element signature="e#5159#5247#1" />
           </folding>
         </state>
       </provider>
