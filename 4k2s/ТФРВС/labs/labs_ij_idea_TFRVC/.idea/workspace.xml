@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java" line="185" mnemonic="8" />
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java" line="74" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java" line="207" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java" line="96" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb4ea4e-8768-46bd-8640-3f6709a2c1d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compiler/lab_1/GrathicLab1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiler/lab_1/RightMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLibrary/ConditionsCicleForLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1/GrathicLab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1/RightMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myLibrary/ConditionsCicleForLambda.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="190" column="29" lean-forward="true" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
+            <state relative-caret-position="453">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,50 +41,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/RightMain.java">
+        <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/GrathicLab1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java">
+        <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriterClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleForLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,21 +89,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/compiler/lab_1/testGrathicLab1.java" />
-        <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java" />
         <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleForClass.java" />
         <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleForLambda.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/GrathicLab1.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/RightMain.java" />
+        <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java" />
+        <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleWhile.java" />
+        <option value="$PROJECT_DIR$/src/myLibrary/ConditionsCicleWhileLambda.java" />
+        <option value="$PROJECT_DIR$/src/myLibrary/FilePrintln.java" />
+        <option value="$PROJECT_DIR$/src/myLibrary/FilePrintlnClass.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       </list>
     </option>
   </component>
@@ -210,6 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -278,7 +251,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24976744" />
@@ -297,52 +270,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleForLambda.java">
+    <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleWhile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleFor.java">
+    <entry file="file://$PROJECT_DIR$/src/myLibrary/ConditionsCicleWhileLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/RightMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="272">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="190" column="29" lean-forward="true" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/GrathicLab1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="63" lean-forward="true" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        <state relative-caret-position="357">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/RightMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

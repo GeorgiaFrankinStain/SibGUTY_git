@@ -1,6 +1,8 @@
 package compiler.lab_1;
 
-import java.io.File;
+import myLibrary.ExtendedPrintWriter;
+import myLibrary.ExtendedPrintWriterClass;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -34,22 +36,42 @@ public class Main {
 
         {
             PrintWriter file = createFile("1_dat.txt");
+/*            file.println("Number n of elementary machines in base subsystem");
 
 
-            file.println("Number n of elementary machines in base subsystem");
-            for (int mu = 1; mu < 10000; mu *= 10) {
+            for (int mu = 1; mu < 10000; mu *= 10)
                 file.print("\"mu = " + mu + " 1/hours\"    ");
-            }
-            file.println();
+
+
+            file.println();*/
+
+            ExtendedPrintWriter extendedWriter =
+                    new ExtendedPrintWriterClass(file, "Number n of elementary machines in base subsystem");
+            extendedWriter.println(new ExtendedPrintWriter.Print() {
+                @Override
+                public void print() {
+
+
+                    for (int mu = 1; mu < 10000; mu *= 10)
+                        file.print("\"mu = " + mu + " 1/hours\"    ");
+
+
+                }
+            });
+
 
             for (int n = 65527; n <= N; ++n) {
                 file.print(n + "    ");
-                for (int mu = 1; mu != 10000; mu *= 10) {
 
+
+                for (int mu = 1; mu != 10000; mu *= 10)
                     file.print(theta(lambda, mu, n, N, m) + "    ");
-                }
+
+
                 file.println();
             }
+
+
             file.close();
         }
 
@@ -97,7 +119,7 @@ public class Main {
         }
 
         {
-            fprintf(f_out, "\"Number n of elementary machines in base subsystem\"    ");
+/*            fprintf(f_out, "\"Number n of elementary machines in base subsystem\"    ");
             for (int i = 1; i != 5; ++i)
                 fprintf(f_out, "\"m = %d\"    ", i);
             fprintf(f_out, "\n");
@@ -108,7 +130,7 @@ public class Main {
                     fprintf(f_out, "%.6f    ", Theta(lambda, mu, n, N, i));
                 fprintf(f_out, "\n");
             }
-            fclose(f_out);
+            fclose(f_out);*/
         }
     }
 
