@@ -30,6 +30,5 @@ set ytics font "Arial, 12"
 
 
 
-set output 'grathics.png'
-
-plot [*:*] [*:*] "output_2.1.txt" using 1:2 title "μ = 10" with linespoints ls 1
+set output 'grathics2.3.png'
+plot for [i=1:4] 'output_2.3-'.i.'.txt' using 1:2 title sprintf("%s%s", "m = ", columnhead(1)."") with linespoints ls i
