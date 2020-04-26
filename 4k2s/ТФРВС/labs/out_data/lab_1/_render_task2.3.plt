@@ -8,7 +8,7 @@ set style line 4 linecolor rgb 'black' linetype 0 linewidth 2
 
 
 
-set title "График зависимости от значения μ"
+# set title "График зависимости от значения μ"
 
 
 
@@ -31,4 +31,4 @@ set ytics font "Arial, 12"
 
 
 set output 'grathics2.3.png'
-plot for [i=1:4] 'output_2.3-'.i.'.txt' using 1:2 title sprintf("%s%s", "m = ", columnhead(1)."") with linespoints ls i
+plot for [i=1:4] 'outputAverageUptimeTheta_2.3-'.i.'.txt' using 1:2 title sprintf("%s%s", "m = ", columnhead(1)."") with linespoints ls i

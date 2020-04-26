@@ -21,14 +21,15 @@ set xtics font "Arial, 12"
 
 
 
-set format y "10^{%L}"
-set logscale y
-set ylabel "Среднее время безотказной работы (θ)" font "Arial, 16"
+set format y "%.0f"
+# set format y "10^{%L}"
+# set logscale y
+set ylabel "Среднее время восстановления (T)" font "Arial, 16"
 # set yrange [0:9999999999999999999999999999999]
 set ytics font "Arial, 12"
 
 
 
 
-set output 'grathics2.1.png'
-plot for [i=1:4] 'outputAverageUptimeTheta_2.1-'.i.'.txt' using 1:2 title sprintf("%s%s", "μ = ", columnhead(1)."") with linespoints ls i
+set output 'grathics3.1.png'
+plot for [i=1:4] 'outputAverageTimeRecoveryTau_3.1-'.i.'.txt' using 1:2 title sprintf("%s%s", "μ = ", columnhead(1)."") with linespoints ls i
