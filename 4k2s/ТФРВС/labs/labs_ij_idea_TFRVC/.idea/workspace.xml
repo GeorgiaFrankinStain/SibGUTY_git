@@ -7,17 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="182" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb4ea4e-8768-46bd-8640-3f6709a2c1d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicleClass$CombinerFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicleClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics$ThetaLambdaWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics$ThetaLambdaWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7cb4ea4e-8768-46bd-8640-3f6709a2c1d3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -66,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="318" column="50" lean-forward="true" selection-end-line="389" />
+            <state relative-caret-position="321">
+              <caret line="265" column="25" lean-forward="true" selection-start-line="265" selection-start-column="25" selection-end-line="265" selection-end-column="25" />
               <folding>
                 <element signature="class#Formula#0;class#Lab1Grathics#0" />
                 <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
@@ -228,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
     <option name="width" value="1623" />
@@ -562,10 +552,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="318" column="50" lean-forward="true" selection-end-line="389" />
+        <state relative-caret-position="321">
+          <caret line="265" column="25" lean-forward="true" selection-start-line="265" selection-start-column="25" selection-end-line="265" selection-end-column="25" />
           <folding>
             <element signature="class#Formula#0;class#Lab1Grathics#0" />
             <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
@@ -573,16 +573,6 @@
             <element signature="e#6250#6251#0" expanded="true" />
             <element signature="method#averageUptimeTheta#0;class#Lab1Grathics#0" />
             <element signature="method#createFile#0;class#Lab1Grathics#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
