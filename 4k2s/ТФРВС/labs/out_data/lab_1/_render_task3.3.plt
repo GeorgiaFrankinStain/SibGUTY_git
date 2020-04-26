@@ -25,7 +25,7 @@ set xtics font "Arial, 12"
 # set format y "10^{%L}"
 # set logscale y
 set ylabel "Среднее время восстановления (T)" font "Arial, 16"
-set yrange [0:1.2]
+# set yrange [0:1.2]
 set ytics font "Arial, 12"
 
 
