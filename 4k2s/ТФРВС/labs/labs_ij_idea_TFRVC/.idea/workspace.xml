@@ -2,23 +2,21 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java" line="195" mnemonic="8" />
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java" line="62" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java" line="10" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="292" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="182" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb4ea4e-8768-46bd-8640-3f6709a2c1d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GFSLibrary/CombinatorCicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForStandartConditionLess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/myLibrary/ConditionsCicleWhile$HasNext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/myLibrary/ConditionsCicleWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/myLibrary/ConditionsCicleWhileLambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out_data/number_n_of_elementary_machines_in_base_subsystem.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/1_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out_data/1_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicleClass$CombinerFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/GFSLibrary/CombinerCicleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics$ThetaLambdaWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics$ThetaLambdaWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Lab1Grathics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labs_ij_idea_TFRVC/compiler/lab_1/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,25 +33,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#790#806#0" expanded="true" />
-                <element signature="e#1576#1604#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="318" column="50" lean-forward="true" selection-end-line="389" />
+              <folding>
+                <element signature="class#Formula#0;class#Lab1Grathics#0" />
+                <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
+                <element signature="e#6207#6208#0" expanded="true" />
+                <element signature="e#6250#6251#0" expanded="true" />
+                <element signature="method#averageUptimeTheta#0;class#Lab1Grathics#0" />
+                <element signature="method#createFile#0;class#Lab1Grathics#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,12 +95,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="391">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +108,16 @@
         <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleFor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GFSLibrary/StepModificator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -93,14 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForAllLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="340">
               <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,14 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +159,16 @@
       <find>,</find>
       <find>+ &quot;\t\t&quot;</find>
       <find>+</find>
+      <find>&lt;start&gt;</find>
+      <find>static</find>
+      <find>calculateFormula</find>
+      <find>&quot;output_2.</find>
+      <find>creatorFormulaWriterFile.createThetaWriterInfrastructure(titleLine)</find>
+      <find>creatorFormulaWriterFile.createThetaWriterInfrastructure(titleLine);</find>
+      <find>averageUptimeTheta</find>
+      <find>assert</find>
+      <find>task3</find>
+      <find>asser</find>
     </findStrings>
     <replaceStrings>
       <replace>Lambda</replace>
@@ -148,6 +176,8 @@
       <replace>double</replace>
       <replace>+ &quot;\t\t&quot;</replace>
       <replace>,</replace>
+      <replace>averageUptimeTheta</replace>
+      <replace>&quot;outputAverageUptimeTheta_2.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -178,26 +208,31 @@
         <option value="$PROJECT_DIR$/src/GFSLibrary/MultiCombinerCicleInFileGrathic.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/MultiCombinerCicle.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/MultiCombinerCicleClass.java" />
-        <option value="$PROJECT_DIR$/src/compiler/lab_1/Main.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/lab1/Runner.java" />
         <option value="$PROJECT_DIR$/src/lab_1/Lab1Grathics.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/lab1/Lab1Grathics.java" />
         <option value="$PROJECT_DIR$/src/temp/Lab1Grathics.java" />
-        <option value="$PROJECT_DIR$/src/compiler/lab_1/Runner.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/CombinerCicleClass.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForStandartConditionLess.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/NextIndexLambda.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleFor.java" />
         <option value="$PROJECT_DIR$/src/GFSLibrary/CombinerCicle.java" />
         <option value="$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java" />
+        <option value="$PROJECT_DIR$/src/compiler/lab_1/Runner.java" />
+        <option value="$PROJECT_DIR$/src/GFSLibrary/NextStep.java" />
+        <option value="$PROJECT_DIR$/src/GFSLibrary/StepSize.java" />
+        <option value="$PROJECT_DIR$/src/GFSLibrary/StepModificator.java" />
+        <option value="$PROJECT_DIR$/src/compiler/lab_1/Main.java" />
+        <option value="$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java" />
+        <option value="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="1619" />
-    <option name="height" value="884" />
+    <option name="width" value="1623" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,7 +274,21 @@
               <item name="labs_ij_idea_TFRVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="labs_ij_idea_TFRVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs_ij_idea_TFRVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs_ij_idea_TFRVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
               <item name="lab_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs_ij_idea_TFRVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labs_ij_idea_TFRVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_1_usual" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="labs_ij_idea_TFRVC" type="b2602c69:ProjectViewProjectNode" />
@@ -273,13 +322,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compiler.lab_1_usual.Main" />
+      <module name="labs_ij_idea_TFRVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compiler.lab_1_usual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="compiler.lab_1.Lab1Grathics" />
       <module name="labs_ij_idea_TFRVC" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compiler.lab_1.Main" />
+      <module name="labs_ij_idea_TFRVC" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compiler.lab_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compiler.lab_1_usual.Main" />
+      <module name="labs_ij_idea_TFRVC" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compiler.lab_1_usual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,8 +386,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -328,8 +424,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1187" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49435028" visible="true" weight="0.2544186" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435028" visible="true" weight="0.1688372" />
       <window_info id="Structure" order="1" sideWeight="0.50564975" side_tool="true" weight="0.2544186" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,16 +435,16 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.5042373" side_tool="true" weight="0.25209302" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39962122" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34753788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25852272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3276515" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24976744" />
@@ -362,16 +459,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
+          <line>268</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
+          <line>171</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
+          <line>322</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
+          <line>333</line>
+          <properties />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -384,67 +499,7 @@
     <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/RightMain.java" />
     <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriterClass.java" />
     <entry file="file://$PROJECT_DIR$/src/myLibrary/ExtendedPrintWriter.java" />
-    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForAllLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForStandartConditionLess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/NextIndexLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/NextIndexLambda.java" />
     <entry file="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -452,14 +507,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java">
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleFor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/StepModificator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForAllLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/ConditionsCicleForStandartConditionLess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#790#806#0" expanded="true" />
-            <element signature="e#1576#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="318" column="50" lean-forward="true" selection-end-line="389" />
+          <folding>
+            <element signature="class#Formula#0;class#Lab1Grathics#0" />
+            <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
+            <element signature="e#6207#6208#0" expanded="true" />
+            <element signature="e#6250#6251#0" expanded="true" />
+            <element signature="method#averageUptimeTheta#0;class#Lab1Grathics#0" />
+            <element signature="method#createFile#0;class#Lab1Grathics#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
