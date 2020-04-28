@@ -217,6 +217,7 @@ public class Lab1Grathics {
 
     }
 
+
     // <start> <private_methods>
     private class CreatorFormulaWriterFile {
         private int numberLine = 1;
