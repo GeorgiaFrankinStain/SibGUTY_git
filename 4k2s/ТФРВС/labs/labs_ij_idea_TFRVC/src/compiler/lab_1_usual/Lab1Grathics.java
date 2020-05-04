@@ -4,6 +4,7 @@ import GFSLibrary.StepModificator;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Random;
 
 public class Lab1Grathics {
 
@@ -277,6 +278,7 @@ public class Lab1Grathics {
                     result
             );
             output.println();
+            Random test;
         }
 
         public void close() {

@@ -1,0 +1,14 @@
+﻿  Modeling_lab_0.cpp
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(21,23): error C2131: выражение не определяется константой
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(21,23): message : сбой вызван чтением переменной вне срока ее существования
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(21,23): message : см. использование "k"
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(23,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(25,16): warning C4244: инициализация: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(28,3): error C2143: синтаксическая ошибка: отсутствие ";" перед "for"
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(30,16): error C3863: тип массива "int [k]" является неназначаемым
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(32,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\SibGUTY_git\4k2s\Моделирование\лабораторные\lab_0\visual_studio\Modeling_lab_0\Modeling_lab_0.cpp(49,3): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"

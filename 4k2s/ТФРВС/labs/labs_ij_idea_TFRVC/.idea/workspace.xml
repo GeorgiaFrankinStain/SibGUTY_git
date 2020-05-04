@@ -3,12 +3,11 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java" line="195" mnemonic="8" />
     <bookmark url="file://$PROJECT_DIR$/src/GFSLibrary/CombinatorCicleClass.java" line="10" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="293" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="182" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="295" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" line="183" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb4ea4e-8768-46bd-8640-3f6709a2c1d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Облачные технологии (Технологии виртуализации)/задания/порядок выполнения лаб.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Облачные технологии (Технологии виртуализации)/задания/порядок выполнения лаб.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java" afterDir="false" />
     </list>
@@ -27,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Lab1Grathics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+            <state relative-caret-position="376">
+              <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
               <folding>
                 <element signature="class#Formula#0;class#Lab1Grathics#0" />
                 <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
@@ -160,6 +147,7 @@
       <find>assert</find>
       <find>task3</find>
       <find>asser</find>
+      <find>mersenne</find>
     </findStrings>
     <replaceStrings>
       <replace>Lambda</replace>
@@ -222,8 +210,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="1624" />
-    <option name="height" value="889" />
+    <option name="width" value="1626" />
+    <option name="height" value="891" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +220,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +280,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,9 +403,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1187" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435028" visible="true" weight="0.17023256" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435028" visible="true" weight="0.17162791" />
       <window_info id="Structure" order="1" sideWeight="0.50564975" side_tool="true" weight="0.2544186" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,31 +438,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
-          <line>269</line>
+          <line>270</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
-          <line>171</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
-          <line>314</line>
+          <line>316</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
-          <line>323</line>
+          <line>325</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java</url>
-          <line>334</line>
+          <line>336</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -563,10 +550,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/compiler/lab_1_usual/Lab1Grathics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+        <state relative-caret-position="376">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
           <folding>
             <element signature="class#Formula#0;class#Lab1Grathics#0" />
             <element signature="method#FormulaWriterFile#0;class#FormulaWriterFile#0;class#Lab1Grathics#0" />
