@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.security.SecureRandom;
 import java.util.Random;
 import java.util.SplittableRandom;
@@ -5,6 +7,7 @@ import java.util.SplittableRandom;
 import static java.lang.Math.pow;
 
 public class GeneratorTester {
+    private static int numberFile = 0;
     int totalNumberOfGeneratedNumbers;
     int countInterval;
     RandomGenerator randomGenerator;
@@ -20,30 +23,30 @@ public class GeneratorTester {
         this.arrayRandomNumbers = new double[totalNumberOfGeneratedNumbers];
         this.fallingNumbersInInterval = new double[countInterval];
     }
-
-    public void testing() {
+//----------------------------------------------------------------------------------------------------------------------
+    public void testing() throws FileNotFoundException {
 
 
         double sum = 0;
-        double sumSquare = 0;
+        double sumPow2RandomNumber = 0;
         for (int i = 0; i < totalNumberOfGeneratedNumbers; i++) {
             arrayRandomNumbers[i] = randomGenerator.nextDouble();
 
             sum += arrayRandomNumbers[i];
-            sumSquare += arrayRandomNumbers[i] * arrayRandomNumbers[i];
+            sumPow2RandomNumber += arrayRandomNumbers[i] * arrayRandomNumbers[i];
             int indexInterval = (int) (arrayRandomNumbers[i] / (1.0 / countInterval));
             fallingNumbersInInterval[indexInterval]++;
         }
 
 
-        System.out.println("ГПСЧ: " + randomGenerator.getClass());
+        System.out.println("Random Generator: " + randomGenerator.getClass());
         System.out.println("N = " + totalNumberOfGeneratedNumbers + ", k = " + countInterval);
 
 
 
 
 
-        System.out.println("Хи-квадрат: " + hiSquare());
+        System.out.println("hiSquare: " + hiSquare());
 
 
 
@@ -51,22 +54,44 @@ public class GeneratorTester {
 
 
         //Автокорреляция
-        double mathematicalExpectation, S, autocorelation = 0.0;
-        mathematicalExpectation = sum / totalNumberOfGeneratedNumbers;
-        S = (sumSquare / totalNumberOfGeneratedNumbers) - (mathematicalExpectation * mathematicalExpectation);
+        double mathematicalExpectationRandomNumber = sum / totalNumberOfGeneratedNumbers;
+        double mathematicalExpectationRandomNumberInPow2 =
+                mathematicalExpectationRandomNumber * mathematicalExpectationRandomNumber;
+
+        double mathematicalExpectationOfPow2RandomNumber = (sumPow2RandomNumber / totalNumberOfGeneratedNumbers);
 
 
-        for (int offset = 1; offset < 25; offset++) {
+        double sampleVarianceSInPow2 =
+                mathematicalExpectationOfPow2RandomNumber - mathematicalExpectationRandomNumberInPow2;
+
+
+        double autocorelation = 0.0;
+        PrintWriter printWriter = new PrintWriter(
+                "D:\\SibGUTY_git\\4k2s\\Моделирование\\лабораторные\\lab_0\\output_data\\"
+                + "a_" + numberFile + ".txt"
+        );
+        numberFile++;
+        printWriter.println(
+                "countInterval-" + countInterval
+                        + "-N-" + totalNumberOfGeneratedNumbers
+        );
+        for (int offset = 1; offset < 30; offset++) {
 
             for (int i = 0; i < totalNumberOfGeneratedNumbers - offset; i++) {
-                autocorelation += (arrayRandomNumbers[i] - mathematicalExpectation) * (arrayRandomNumbers[i + offset] - mathematicalExpectation);
+                autocorelation +=
+                        (arrayRandomNumbers[i] - mathematicalExpectationRandomNumber)
+                                * (arrayRandomNumbers[i + offset] - mathematicalExpectationRandomNumber);
             }
 
 
-            autocorelation /= (totalNumberOfGeneratedNumbers - offset) * S;
-            System.out.print("τ = " + offset);
-            System.out.printf(" autocorelation = %.10f\n", autocorelation);
+            autocorelation /= (totalNumberOfGeneratedNumbers - offset) * sampleVarianceSInPow2;
+
+
+            printWriter.print(offset + "    " + autocorelation + "\n");
+//            printWriter.printf("%.10f\n", autocorelation);
+//            printWriter.printf("%f\n", 0.5);
         }
+        printWriter.close();
     }
 
     public interface RandomGenerator {
@@ -107,6 +132,7 @@ public class GeneratorTester {
     private double hiSquare() {
         double hiSqare = 0;
         double theoreticalProbabilityOfNumbersFallingInOneInterval = 1.0 / countInterval;
+
         for (int i = 0; i < countInterval; i++) {
             hiSqare += pow(fallingNumbersInInterval[i], 2) / theoreticalProbabilityOfNumbersFallingInOneInterval;
         }
