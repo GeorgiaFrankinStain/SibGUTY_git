@@ -1775,12 +1775,6 @@ memories += agent.memory;]]></Code>
 			</ModelTimeProperties>
 		</SimulationExperiment>	
 	</Experiments>
-	<ModelResources>
-		<Resource>
-			<Path><![CDATA[3d/person.dae]]></Path>
-			<ReferencedFromUserCode>false</ReferencedFromUserCode>
-		</Resource>
-	</ModelResources>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>
 		<VersionMajor>8</VersionMajor>
