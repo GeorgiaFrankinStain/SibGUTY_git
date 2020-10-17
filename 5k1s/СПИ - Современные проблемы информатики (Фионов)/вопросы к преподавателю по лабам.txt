@@ -1,0 +1,7 @@
+lab_1
+	Представленную схему можно продолжать до бесконечности, строя все более экономные коды для больших чисел.
+	Really unlimited?
+
+	F1 - efficiency on small numbers? Metadata is more then data.
+lab_3
+	size of alfabet?

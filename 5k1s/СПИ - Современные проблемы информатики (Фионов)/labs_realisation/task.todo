@@ -1,0 +1,28 @@
+ ☐ input and out in bin file
+    ☐ find out the contents of serialized file
+ ☐ @low comparison manual writing to the end of a file with serialization and array serialization from java
+
+
+ question:
+    ☐ How create a data entry in a serialized file? 
+    ✔ how do I send (when creating a file) and request metadata? Who is responsible for creating the file? Who defines the parameters for archiving? @done (20-10-15 21:29)
+       Main will personally identified options
+    ✔ how is the size of the next number determined? @started(20-10-14 21:57) @done (20-10-15 14:32) @lasted(16:35)
+       standart intermittent size
+
+    ✔ record a sequence of encryption methods? @started(20-10-14 21:57) @done (20-10-15 09:56) @lasted(11:59)
+       No. There will be no experiments on this topic
+    ✔ how to write metadata? @started(20-10-14 20:28) @done (20-10-14 21:35) @lasted(1:07)
+       json
+       unique records
+       + serialization java
+
+       ✔ CRITERION what do we need to record? @done (20-10-14 21:35)
+          size of alfabet
+          hoffman codes
+          length permutation BWT
+       ✔ how to write after serialization java objects? @done (20-10-14 21:35)
+       ✔ realisation as string? (no) @done (20-10-14 21:21)
+       ✔ what type of data shoul return function MetaDataTegs? @done (20-10-14 21:34)
+          string (little flexibility)
+          Object
