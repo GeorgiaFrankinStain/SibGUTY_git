@@ -1,16 +1,18 @@
 package DataInputOut;
 
-import logic.ChunkBits;
+import Logic.ChunkBits;
 
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OutputFileWithMetadataClass implements OutputFileWithMetadata {
+public class OutputFileWithMetadataClass implements OutputFileBits {
 
     private File file;
     private String path;
     private ObjectOutputStream fileWithMetadataArchive;
+
+    private int leftBitsForBuferInEndLastTime = 0;
 
     private byte buferSaveNonMultipleRemainsByte = 0b00000000;
     private int numberBitsInBufer = 0;
@@ -29,8 +31,6 @@ public class OutputFileWithMetadataClass implements OutputFileWithMetadata {
         this.fileWithMetadataArchive = new ObjectOutputStream(new FileOutputStream(this.file));
         this.fileWithMetadataArchive.writeObject(metadataArchive);
     }
-
-    private int leftBitsForBuferInEndLastTime = 0;
 
     @Override
     public void writeChunkDataInEnd(ChunkBits chunkBits) throws Exception {

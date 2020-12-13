@@ -1,6 +1,6 @@
 package DataInputOut;
 
-import logic.ChunkBits;
+import Logic.ChunkBits;
 
 import java.io.IOException;
 

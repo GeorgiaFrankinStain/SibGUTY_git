@@ -1,7 +1,7 @@
 package DataInputOut;
 
-import logic.ChunkBits;
-import logic.ChunkBitsClass;
+import Logic.ChunkBits;
+import Logic.ChunkBitsClass;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class FileWithMetadataTest {
         String titleTeg = "teg";
         Integer recordedObjectForTeg = 5;
 
-        OutputFileWithMetadata outputFileWithMetadata = writeMetadataInFile(titleTeg, randomName, recordedObjectForTeg);
+        OutputFileBits outputFileWithMetadata = writeMetadataInFile(titleTeg, randomName, recordedObjectForTeg);
         outputFileWithMetadata.close();
 
         InputFileWithMetadata inputFileWithMetadata =
@@ -36,11 +36,11 @@ public class FileWithMetadataTest {
         assertEquals(expected, actual);
     }
 
-    private OutputFileWithMetadata writeMetadataInFile(String titleTeg, String titleFile, Object recordedObjectForTeg) throws IOException {
+    private OutputFileBits writeMetadataInFile(String titleTeg, String titleFile, Object recordedObjectForTeg) throws IOException {
         Map<String, Object> metadataArchive = new HashMap<String, Object>();
         metadataArchive.put(titleTeg, recordedObjectForTeg);
 
-        OutputFileWithMetadata outputFileWithMetadata =
+        OutputFileBits outputFileWithMetadata =
                 new OutputFileWithMetadataClass(this.rootPath + titleFile, metadataArchive);
 
         return outputFileWithMetadata;
@@ -52,7 +52,7 @@ public class FileWithMetadataTest {
         String titleTeg = "teg";
         Integer recordedObjectForTeg = 5;
 
-        OutputFileWithMetadata outputFileWithMetadata = writeMetadataInFile(titleTeg, randomName, recordedObjectForTeg);
+        OutputFileBits outputFileWithMetadata = writeMetadataInFile(titleTeg, randomName, recordedObjectForTeg);
         InputFileWithMetadata inputFileWithMetadata = writingArrayBytes(outputFileWithMetadata, randomName);
         outputFileWithMetadata.close();
 
@@ -70,7 +70,7 @@ public class FileWithMetadataTest {
     }
 
     private InputFileWithMetadata writingArrayBytes(
-            OutputFileWithMetadata outputFileWithMetadata,
+            OutputFileBits outputFileWithMetadata,
             String randomName
     ) throws Exception {
         ChunkBits recordedChunkBits = createTestedObjectWithEqualOption();
@@ -93,7 +93,7 @@ public class FileWithMetadataTest {
 
         FactoryChunkBits factory = new FactoryChunkBitsClass();
         for (int varietyChunkBits = 0; varietyChunkBits < factory.getCountVarieties(); varietyChunkBits++) {
-            OutputFileWithMetadata outputFileWithMetadata =
+            OutputFileBits outputFileWithMetadata =
                     new OutputFileWithMetadataClass(this.rootPath + randomName);
 
             int sizeChunkBits = 4 * 8 + 3;
@@ -128,7 +128,6 @@ public class FileWithMetadataTest {
                 InputFileWithMetadata inputFileWithMetadata =
                         new InputFileWithMetadataNoRewriteClass(this.rootPath + randomName);
 
-
                 ChunkBits actual = inputFileWithMetadata.readNextChunkDataBit(size1Chunk + size2Chunk);
                 ChunkBits expected = sharedChunk;
                 assertEquals("size first chunk: " + i + " variety chunk bits: " + varietyChunkBits, expected, actual);
@@ -142,7 +141,7 @@ public class FileWithMetadataTest {
             int size2ChunkBits,
             String randomName
     ) throws Exception {
-        OutputFileWithMetadata outputFileWithMetadata =
+        OutputFileBits outputFileWithMetadata =
                 new OutputFileWithMetadataClass(this.rootPath + randomName);
 
         ChunkBits chunkBitsNonMultipleByteSize = sharedChunk.getBitsFromInfiniteArray(0, size1ChunkBits);

@@ -1,7 +1,7 @@
 package DataInputOut;
 
-import logic.ChunkBits;
-import logic.ChunkBitsClass;
+import Logic.ChunkBits;
+import Logic.ChunkBitsClass;
 
 import java.io.File;
 import java.io.FileInputStream;

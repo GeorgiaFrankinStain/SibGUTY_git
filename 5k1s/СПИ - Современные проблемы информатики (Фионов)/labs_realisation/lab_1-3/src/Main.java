@@ -1,11 +1,21 @@
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.nio.ByteBuffer;
 
 public class Main {
 
+    static Integer i;
+
+    int[] test = {1};
+
     public static void main(String[] args) throws IOException {
 
+
+        FileOutputStream file = new FileOutputStream("./test_files/main.bin");
+
+        file.write(ByteBuffer.allocate(4).putInt(555362644).array());
+        file.close();
 
 
 //        fileWithMetadataArchive2.writeObject(intege);
