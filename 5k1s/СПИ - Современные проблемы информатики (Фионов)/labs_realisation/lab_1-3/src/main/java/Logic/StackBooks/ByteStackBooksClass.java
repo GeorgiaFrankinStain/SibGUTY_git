@@ -8,6 +8,7 @@ import Logic.ArchivarotNumberClass;
 import Logic.ArchivatorNumber;
 import Logic.ChunkBits;
 import Logic.ChunkBitsClass;
+import Logic.RiStackBooks.StackBooks;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -29,9 +30,9 @@ import java.util.List;
 public class ByteStackBooksClass implements StackBooks {
 
 
-    @Override
-    public void code(String data, String archivedFile) throws Exception {
 
+    public void code(String data, String archivedFile) throws Exception {
+/*
         List<Byte> alphabet = alphabetCreate();
 
         byte[] actual = Files.readAllBytes(Path.of((new File(data)).getAbsolutePath()));
@@ -50,12 +51,9 @@ public class ByteStackBooksClass implements StackBooks {
             int indexOf = alphabet.indexOf(currentSimbol);
 
 
-            System.out.println("numberForCode indexOf: " + indexOf);
             //сжатие кода
 //            byte code = UnsignedByte.toSignedByte(indexOf);
             ChunkBits archivedIndexOf = archivator.codeNumberToRequiredSize(new ChunkBitsClass(indexOf));
-            System.out.println("archived indexOf: " + archivedIndexOf);
-            System.out.println("-----------------------------------\n");
             //запись кода в файл
             writerBits.writeChunkDataInEnd(archivedIndexOf);
 
@@ -75,12 +73,9 @@ public class ByteStackBooksClass implements StackBooks {
         byte[] alphabetByte = listToArrayByte(alphabet);
 
         FileOutputStream file = new FileOutputStream(archivedFile);
-        System.out.println("length-----------------------");
         file.write(alphabetByte);
-        System.out.println(alphabetByte.length);
         file.write(archivedStackBooksArray);
-        System.out.println("archived: " + archivedStackBooksArray.length);
-        file.close();
+        file.close();*/
 /*
         RandomAccessFile raf = new RandomAccessFile(archivedFile, "rw");
         raf.seek(0);
@@ -112,14 +107,9 @@ public class ByteStackBooksClass implements StackBooks {
         return res;
     }
 
-    @Override
+
     public void decode(String archiveStackBooks, String data) throws Exception {
 /*
-        InputFileBits input = new InputFileBitsClass();
-        byte[] all = input.getAllContent(archiveStackBooks).getAllContent();
-*/
-
-
         byte[] all = Files.readAllBytes(Path.of((new File(archiveStackBooks)).getAbsolutePath()));
 
 
@@ -150,24 +140,46 @@ public class ByteStackBooksClass implements StackBooks {
 
             //0 символ алфавита добавляется в конец строки
             byte firstItem = alphabet.get(0);
-            System.out.println("firstItem: " + firstItem);
             array.add(0, firstItem);
 
             //0 символ из алфавита вставляется в позицию нормер (код) в массив
-            alphabet.remove(0);
-            int code = UnsignedByte.getInt((byte) decodeArray[i]);
-            alphabet.add(code, firstItem);
+            firstSymbolInsertPosition(decodeArray, alphabet, i, firstItem);
         }
 
-
-
-        //в конце проверяем, что алфавит в исходном порядке
-//        assert (alphabet.get(0) < alphabet.get(1));
+        assert (alphabetReturnedToOriginalOrder(alphabet));
 
         byte[] res = listToArrayByte(array);
 
 
-        Files.write(Path.of((new File(data)).getAbsolutePath()), res);
+        Files.write(Path.of((new File(data)).getAbsolutePath()), res);*/
     }
 
+    private void firstSymbolInsertPosition(byte[] decodeArray, ArrayList<Byte> alphabet, int position, byte firstItem) {
+        alphabet.remove(0);
+        int code = UnsignedByte.getInt((byte) decodeArray[position]);
+        alphabet.add(code, firstItem);
+    }
+
+    private boolean alphabetReturnedToOriginalOrder(ArrayList<Byte> alphabet) {
+        for (int i = 1; i < alphabet.size(); i++) {
+            int indexPrevious = i - 1;
+            System.out.println(alphabet.get(indexPrevious));
+            boolean rightOrder = alphabet.get(indexPrevious) < alphabet.get(i);
+            if (!rightOrder) {
+                System.out.println("-------> ne poriadok: " + alphabet.get(indexPrevious) + " , " + alphabet.get(i));
+//                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public void archiveToBuffer(byte[] data) {
+
+    }
+
+    @Override
+    public ChunkBits getArchivedData() {
+        return null;
+    }
 }

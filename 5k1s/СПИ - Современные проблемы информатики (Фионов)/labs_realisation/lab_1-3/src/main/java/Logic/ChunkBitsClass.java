@@ -198,21 +198,9 @@ public class ChunkBitsClass implements ChunkBits {
     }
 
     @Override
-    public byte getByte() throws Exception {/*
-        int size = this.size();
-        System.out.println("size234: " + size);
-        assert(0 < arrayBits.length && arrayBits.length < 5 && 0 < this.size() && this.size() < 33);
-
-
-        int missingBitsOnLeft = 8 - this.size();
-
-        byte[] shiftChunk = getByteArrayFromInfiniteArray(-missingBitsOnLeft, this.size());
-        assert(shiftChunk.length == 1);
-
-        return shiftChunk[0];*/
+    public byte getByte() throws Exception {
         int res = this.getInt();
         byte result = UnsignedByte.toSignedByte(res);
-        System.out.println("res from int: " + result);
         assert(-129 < result && result < 128);
 
         return result;

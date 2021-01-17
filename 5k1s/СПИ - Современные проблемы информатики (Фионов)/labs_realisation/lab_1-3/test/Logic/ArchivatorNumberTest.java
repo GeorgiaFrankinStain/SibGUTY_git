@@ -8,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.ByteBuffer;
+import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -29,8 +30,9 @@ public class ArchivatorNumberTest {
         ChunkBits actualArchiving = archivator.codeNumberToRequiredSize(number);
         return expectedArchiving.equals(actualArchiving);
     }
+
     private boolean testCodeNumberToRequiredSize(int fi, int numberInt, String code) throws Exception {
-        assert(fi > 0);
+        assert (fi > 0);
         ArchivatorNumber archivator = new ArchivarotNumberClass(fi);
 
         ChunkBits number = new ChunkBitsClass(numberInt);
@@ -103,14 +105,16 @@ public class ArchivatorNumberTest {
     public void codeNumberToRequiredSizeF1_4() throws Exception {
         assert (testCodeNumberToRequiredSize(1, "100", "0001 00"));
     }
+
     @Test
     public void codeNumberToRequiredSizeF1_m100() throws Exception {
-        assert(testCodeNumberToRequiredSize(
+        assert (testCodeNumberToRequiredSize(
                 1,
                 -100,
                 "00000000 00000000 00000000 00000000 11111111 11111111 11111111 10011100")
         );
     }
+
     @Test
     public void codeNumberToRequiredSizeF1_65() throws Exception {
         assert (testCodeNumberToRequiredSize(1, "1000001", "00000001 000001"));
@@ -150,25 +154,23 @@ public class ArchivatorNumberTest {
     void isExistRemainInBuffer() throws Exception {
         ArchivatorNumber archivatorNumber = new ArchivarotNumberClass(0);
         archivatorNumber.addToBuffer(new ChunkBitsClass("1111"));
-        assert(archivatorNumber.isExistRemainInBuffer());
+        assert (archivatorNumber.isExistRemainInBuffer());
     }
 
     @org.junit.jupiter.api.Test
     void decodeOneNumberFromBuffer_fi0_4() throws Exception {
-        assert(testDecodeOneNumberFromBuffer(0, 4));
+        assert (testDecodeOneNumberFromBuffer(0, 4));
     }
 
     @org.junit.jupiter.api.Test
     void decodeOneNumberFromBuffer_fi1_0() throws Exception {
-        assert(testDecodeOneNumberFromBuffer(1, 0));
+        assert (testDecodeOneNumberFromBuffer(1, 0));
     }
 
     @org.junit.jupiter.api.Test
     void decodeOneNumberFromBuffer_fi0_fori() throws Exception {
         for (int i = 0; i < 100; i++) {
-            String message = "number code and decode: " + i;
-            System.out.println(message);
-            assert(testDecodeOneNumberFromBuffer(0, i));
+            assert (testDecodeOneNumberFromBuffer(0, i));
         }
     }
 
@@ -178,7 +180,6 @@ public class ArchivatorNumberTest {
 //        for (int i = 0; i < 100; i++) {
         for (int i = -100; i < 100; i++) {
             String message = "number code and decode: " + i;
-            System.out.println(message);
             assertTrue(testDecodeOneNumberFromBuffer(1, i));
         }
     }
@@ -217,6 +218,7 @@ public class ArchivatorNumberTest {
 
         assertEquals(false, archivatorNumber.isExistRemainInBuffer());
     }
+
     @org.junit.jupiter.api.Test
     void deleteFirstCodeNumber_10() throws Exception {
         ChunkBits imitationDataFromArchive = new ChunkBitsClass("0010 0010 0010");
@@ -228,8 +230,6 @@ public class ArchivatorNumberTest {
 
         assertEquals(false, archivatorNumber.isExistRemainInBuffer());
     }
-
-
 
 
     @org.junit.jupiter.api.Test
@@ -244,48 +244,43 @@ public class ArchivatorNumberTest {
         String resultDecode = testDirectory + "backArrayByte.bin";
         archivatorNumber.decodeFileInFileIntFormat(codeFile, resultDecode);
 
-        byte[] f1 = Files.readAllBytes(Path.of((new File(orinal)).getAbsolutePath()));
+        byte[] f1 = Files.readAllBytes(
+                Path.of((new File(orinal)).getAbsolutePath()));
         byte[] f2 = Files.readAllBytes(Path.of((new File(resultDecode)).getAbsolutePath()));
 
-        assert(Arrays.equals(f1, f2));
+        assert (Arrays.equals(f1, f2));
     }
+
     @org.junit.jupiter.api.Test
     void decodeFileInFileIntFormat_nonMultipleByte() throws Exception {
         String addressOriginal = testDirectory + "arrayByte.bin";
         String codeFile = testDirectory + "code.bin";
         writeArrayInFile_nonMultiple(addressOriginal);
-
         ArchivatorNumber archivatorNumber = new ArchivarotNumberClass(1);
         String orinal = addressOriginal;
         archivatorNumber.codeFileInFileIntFormat(orinal, codeFile);
         String resultDecode = testDirectory + "backArrayByte.bin";
         archivatorNumber.decodeFileInFileIntFormat(codeFile, resultDecode);
-
+        Path path = FileSystems.getDefault().getPath("logs", "access.log");
         byte[] f1 = Files.readAllBytes(Path.of((new File(orinal)).getAbsolutePath()));
         byte[] f2 = Files.readAllBytes(Path.of((new File(resultDecode)).getAbsolutePath()));
 
-        assert(Arrays.equals(f1, f2));
+        assert (Arrays.equals(f1, f2));
     }
+
     private void writeArrayInFile(String address) throws IOException {
         int[] data = {0, 0, 0, 0, 0, 0, 0, 0};
-        try {
-            FileOutputStream file = new FileOutputStream(address);
-            for (int i = 0; i < data.length; i++)
-                file.write(ByteBuffer.allocate(4).putInt(data[i]).array());
-            file.close();
-        } catch (IOException e) {
-            System.out.println("Error - " + e.toString());
-        }
+        FileOutputStream file = new FileOutputStream(address);
+        for (int i = 0; i < data.length; i++)
+            file.write(ByteBuffer.allocate(4).putInt(data[i]).array());
+        file.close();
     }
+
     private void writeArrayInFile_nonMultiple(String address) throws IOException {
         int[] data = {0, 0, 0, 0, 0, 0};
-        try {
-            FileOutputStream file = new FileOutputStream(address);
-            for (int i = 0; i < data.length; i++)
-                file.write(ByteBuffer.allocate(4).putInt(data[i]).array());
-            file.close();
-        } catch (IOException e) {
-            System.out.println("Error - " + e.toString());
-        }
+        FileOutputStream file = new FileOutputStream(address);
+        for (int i = 0; i < data.length; i++)
+            file.write(ByteBuffer.allocate(4).putInt(data[i]).array());
+        file.close();
     }
 }

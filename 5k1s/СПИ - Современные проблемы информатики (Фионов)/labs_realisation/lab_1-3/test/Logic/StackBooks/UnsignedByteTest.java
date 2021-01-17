@@ -13,5 +13,4 @@ class UnsignedByteTest {
             assertEquals(i, UnsignedByte.getInt(code));
         }
     }
-
 }

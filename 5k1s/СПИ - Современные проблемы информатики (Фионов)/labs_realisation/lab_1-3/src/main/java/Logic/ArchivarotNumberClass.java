@@ -57,7 +57,6 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
     public byte[] decodeFileByte(String archived) throws Exception {
         InputFileBits input = new InputFileBitsClass();
         ChunkBits allContent = input.getAllContent(archived);
-        System.out.println("bufer for decode: " + allContent);
         this.addToBuffer(allContent);
 
 
@@ -71,7 +70,6 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
             this.deleteFirstCodeNumber();
             byte decodeByte = test.getByte();
 
-            System.out.println("decode --------------------------------------: " + UnsignedByte.getInt(decodeByte));
 
             array.add((byte) decodeByte);
         }
@@ -154,7 +152,6 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
             }
             file.close();
         } catch (IOException e) {
-            System.out.println("Error - " + e.toString());
         }
     }
 
@@ -178,7 +175,6 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
     }
 
     private ChunkBits decodeFi(int fi) throws Exception {
-        System.out.println("buffer delete sequence: " + this.buffer);
         ChunkBits res = new ChunkBitsClass(null, 0);
         Integer startReadNextData = fi0Decode();
         if (startReadNextData == null) {
