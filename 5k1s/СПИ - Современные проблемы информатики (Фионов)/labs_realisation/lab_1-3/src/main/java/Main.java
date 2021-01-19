@@ -12,22 +12,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
 
-
-
-
-
-
-
-
-/*
-
-        FileOutputStream file = new FileOutputStream("./test_files/main.bin");
-
-        file.write(ByteBuffer.allocate(4).putInt(555362644).array());
-        file.close();
-*/
-
-
 //        fileWithMetadataArchive2.writeObject(intege);
 
         //array int text file conversion in bin file

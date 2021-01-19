@@ -30,9 +30,8 @@ import java.util.List;
 public class ByteStackBooksClass implements StackBooks {
 
 
-
+    @Override
     public void code(String data, String archivedFile) throws Exception {
-/*
         List<Byte> alphabet = alphabetCreate();
 
         byte[] actual = Files.readAllBytes(Path.of((new File(data)).getAbsolutePath()));
@@ -75,14 +74,13 @@ public class ByteStackBooksClass implements StackBooks {
         FileOutputStream file = new FileOutputStream(archivedFile);
         file.write(alphabetByte);
         file.write(archivedStackBooksArray);
-        file.close();*/
-/*
+        file.close();
         RandomAccessFile raf = new RandomAccessFile(archivedFile, "rw");
         raf.seek(0);
 
 
         raf.write(alphabetByte);
-        raf.close();*/
+        raf.close();
     }
     private byte[] listToArrayByte(List<Byte> pdu) {
         Byte[] bytes = pdu.toArray(new Byte[pdu.size()]);
@@ -107,9 +105,8 @@ public class ByteStackBooksClass implements StackBooks {
         return res;
     }
 
-
+    @Override
     public void decode(String archiveStackBooks, String data) throws Exception {
-/*
         byte[] all = Files.readAllBytes(Path.of((new File(archiveStackBooks)).getAbsolutePath()));
 
 
@@ -136,7 +133,7 @@ public class ByteStackBooksClass implements StackBooks {
         ArchivatorNumber archivator = new ArchivarotNumberClass(1);
         byte[] decodeArray = archivator.decodeFileByte(tempNameFile);
 
-        for (int i = 0; i < decodeArray.length; i++) {
+        for (int i = decodeArray.length - 1; i >= 0 ; i--) {
 
             //0 символ алфавита добавляется в конец строки
             byte firstItem = alphabet.get(0);
@@ -151,7 +148,7 @@ public class ByteStackBooksClass implements StackBooks {
         byte[] res = listToArrayByte(array);
 
 
-        Files.write(Path.of((new File(data)).getAbsolutePath()), res);*/
+        Files.write(Path.of((new File(data)).getAbsolutePath()), res);
     }
 
     private void firstSymbolInsertPosition(byte[] decodeArray, ArrayList<Byte> alphabet, int position, byte firstItem) {
@@ -167,7 +164,7 @@ public class ByteStackBooksClass implements StackBooks {
             boolean rightOrder = alphabet.get(indexPrevious) < alphabet.get(i);
             if (!rightOrder) {
                 System.out.println("-------> ne poriadok: " + alphabet.get(indexPrevious) + " , " + alphabet.get(i));
-//                return false;
+                return false;
             }
         }
         return true;

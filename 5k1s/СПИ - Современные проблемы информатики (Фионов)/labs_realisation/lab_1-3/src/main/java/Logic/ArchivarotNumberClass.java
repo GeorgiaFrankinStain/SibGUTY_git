@@ -134,7 +134,8 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
     public void decodeFileInFileIntFormat(String inputFile, String outputFile) throws Exception {
 
         InputFileBits input = new InputFileBitsClass();
-        this.addToBuffer(input.getAllContent(inputFile));
+        ChunkBits data = input.getAllContent(inputFile);
+        this.addToBuffer(data);
 
         try {
             FileOutputStream file = new FileOutputStream(outputFile);
@@ -182,7 +183,8 @@ public class ArchivarotNumberClass implements ArchivatorNumber {
         }
 
         if (fi == 0 || (startReadNextData < 2)) {
-            this.endFirstCodeNumber = startReadNextData;
+            this.endFirstCodeNumber = startReadNextData + 1;
+
             return new ChunkBitsClass(startReadNextData);
         }
 

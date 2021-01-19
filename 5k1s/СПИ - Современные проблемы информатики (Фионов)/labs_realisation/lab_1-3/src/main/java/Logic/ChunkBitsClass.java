@@ -126,10 +126,6 @@ public class ChunkBitsClass implements ChunkBits {
         byte[] secondArray = getSecondArrayMergeWithLastByteOfFirstArray(chunkBitsConcatinate);
 
         int startSecondArray = this.arrayBits.length - 1;
-/*        boolean inFirstArrayExistPlaceForBitsFromSecondArray = this.size() % 8 != 0;
-        if (inFirstArrayExistPlaceForBitsFromSecondArray) {
-            startSecondArray--;
-        }*/
         printArrayInOtherArray(secondArray, newArray, startSecondArray);
 
         return new ChunkBitsClass(newArray, sumBitsSizes);
@@ -279,10 +275,6 @@ public class ChunkBitsClass implements ChunkBits {
 
         int countNonSignificanBits = numberBitsInByteArray - significanBitsNumber;
         boolean existExtraBits = countNonSignificanBits > 0;
-/*
-        if (countNonSignificanBits >= 8) {
-            assert (false);
-        }*/
 
         if (existExtraBits) {
             byte mask = (byte) (0b11111111 << countNonSignificanBits);

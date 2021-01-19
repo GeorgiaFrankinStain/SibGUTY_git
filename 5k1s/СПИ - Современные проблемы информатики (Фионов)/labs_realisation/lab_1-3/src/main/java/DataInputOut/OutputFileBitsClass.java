@@ -88,10 +88,6 @@ public class OutputFileBitsClass implements OutputFileBits {
 
     @Override
     public void close() throws IOException {
-/*        if (this.numberBitsInBufer > 0) {
-            byte[] data = {this.buferSaveNonMultipleRemainsByte};
-            this.file.write(data);
-        }*/
         byte[] data = {this.buferSaveNonMultipleRemainsByte};
         this.file.write(data);
 
